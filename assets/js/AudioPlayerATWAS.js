@@ -7,6 +7,9 @@ const progress = document.querySelector(".progress");
 const progressContainer = document.querySelector(".progress-container");
 const title = document.querySelector("#title");
 const cover = document.querySelector("#cover");
+const timeContainer = document.querySelector(".time");
+const currentTime = document.querySelector("#current-time");
+const durationTime = document.querySelector("#duration");
 
 // Song titles
 const songs = [
@@ -23,31 +26,38 @@ const songs = [
 const songPaths = {
 	"שיחה ללא נושא | על מבחנים, החיים ושירים": {
 		"audio": "../assets/audio/ATWAS/2201.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "01:08:37"
 	},
 	"שיחה ללא נושא | גרמנית, ג'אווה ועוד שירים": {
 		"audio": "../assets/audio/ATWAS/2202.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "01:02:22"
 	},
 	"שיחה ללא נושא | מעולמות שונים": {
 		"audio": "../assets/audio/ATWAS/2203.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:45:50"
 	},
 	"?שיחה ללא נושא | לאן הגענו": {
 		"audio": "../assets/audio/ATWAS/2204.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:39:04"
 	},
 	"שיחה ללא נושא | מה שלא היה נכנס - פרק בונוס": {
 		"audio": "../assets/audio/ATWAS/2205.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:21:19"
 	},
 	"שיחה ללא נושא | גילי אמרה לי לקרוא לפרק הזה \"שיחה בנות\" למרות שהוא לא": {
 		"audio": "../assets/audio/ATWAS/2206.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:50:59"
 	},
 	"שיחה ללא נושא | על הממשלה, גרעינים, ועוד": {
 		"audio": "../assets/audio/ATWAS/2207.mp3",
-		"cover": "../assets/img/ATWAS.png"
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:55:37"
 	}
 };
 
@@ -73,6 +83,8 @@ function loadSong(song)
 	
 	audio.src = songPaths[song]["audio"];
 	cover.src = songPaths[song]["cover"];
+
+	durationTime.textContent = songPaths[song]["duration"];
 }
 
 // Play song
@@ -137,6 +149,22 @@ function updateProgress(e)
 	const { duration, currentTime } = e.srcElement;
 	const progressPercent = (currentTime / duration) * 100;
 	progress.style.width = `${progressPercent}%`;
+
+	// Calculate display for duration(with hours if needed)
+	const hours = Math.floor(duration / 3600);
+	const durationMinutes = Math.floor(duration / 60);
+	let durationSeconds = Math.floor(duration % 60);
+	
+	if (durationSeconds < 10)
+	{
+		durationSeconds = `0${durationSeconds}`;
+	}
+
+	// Delay switching duration element to avoid NaN
+	if (durationSeconds)
+	{
+		currentTime.textContent = `${hours ? hours + ":" : ""}${durationMinutes}:${durationSeconds}`;
+	}
 }
 
 // Set progress bar
@@ -147,6 +175,22 @@ function setProgress(e)
 	const duration = audio.duration;
 
 	audio.currentTime = (clickX / width) * duration;
+
+	// Calculate display for duration(with hours if needed)
+	const hours = Math.floor(duration / 3600);
+	const durationMinutes = Math.floor(duration / 60);
+	let durationSeconds = Math.floor(duration % 60);
+	
+	if (durationSeconds < 10)
+	{
+		durationSeconds = `0${durationSeconds}`;
+	}
+
+	// Delay switching duration element to avoid NaN
+	if (durationSeconds)
+	{
+		currentTime.textContent = `${hours ? hours + ":" : ""}${durationMinutes}:${durationSeconds}`;
+	}
 }
 
 // On load - check if should play
