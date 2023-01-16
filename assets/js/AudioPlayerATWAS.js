@@ -19,7 +19,8 @@ const songs = [
 	"?שיחה ללא נושא | לאן הגענו",
 	"שיחה ללא נושא | מה שלא היה נכנס - פרק בונוס",
 	"שיחה ללא נושא | גילי אמרה לי לקרוא לפרק הזה \"שיחה בנות\" למרות שהוא לא",
-	"שיחה ללא נושא | על הממשלה, גרעינים, ועוד"
+	"שיחה ללא נושא | על הממשלה, גרעינים, ועוד",
+	"שיחה ללא נושא | קצת מזה וקצת מזה"
 ];
 
 // Song title to paths
@@ -58,6 +59,11 @@ const songPaths = {
 		"audio": "../assets/audio/ATWAS/2207.mp3",
 		"cover": "../assets/img/ATWAS.png",
 		"duration": "00:55:37"
+	},
+	"שיחה ללא נושא | קצת מזה וקצת מזה": {
+		"audio": "../assets/audio/ATWAS/2308.mp3",
+		"cover": "../assets/img/ATWAS.png",
+		"duration": "00:43:18"
 	}
 };
 
@@ -147,8 +153,6 @@ function nextSong()
 function updateProgress(e)
 {
 	const { duration, currentTime } = e.srcElement;
-	const progressPercent = (currentTime / duration) * 100;
-	progress.style.width = `${progressPercent}%`;
 
 	// Calculate display for duration(with hours if needed)
 	const hours = Math.floor(duration / 3600);
@@ -165,6 +169,10 @@ function updateProgress(e)
 	{
 		currentTime.textContent = `${hours ? hours + ":" : ""}${durationMinutes}:${durationSeconds}`;
 	}
+
+	// update progress bar
+	const progressPercent = (currentTime / duration) * 100;
+	progress.style.width = `${progressPercent}%`;
 }
 
 // Set progress bar
@@ -174,8 +182,6 @@ function setProgress(e)
 	const clickX = e.offsetX;
 	const duration = audio.duration;
 
-	audio.currentTime = (clickX / width) * duration;
-
 	// Calculate display for duration(with hours if needed)
 	const hours = Math.floor(duration / 3600);
 	const durationMinutes = Math.floor(duration / 60);
@@ -191,6 +197,8 @@ function setProgress(e)
 	{
 		currentTime.textContent = `${hours ? hours + ":" : ""}${durationMinutes}:${durationSeconds}`;
 	}
+
+	audio.currentTime = (clickX / width) * duration;
 }
 
 // On load - check if should play
