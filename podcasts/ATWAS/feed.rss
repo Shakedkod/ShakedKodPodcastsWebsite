@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>שיחה ללא נושא</title>
+        <link>https://ShakedKodPodcasts.studio/ATWAS</link>
+        <description>
+            <![CDATA[על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.]]>
+        </description>
+        <atom:link href="https://rss.shakedkod.tech" rel="self" type="application/rss+xml"/>
+        <language>he</language>
+        <category>Entertainment</category>
+        <copyright>©ShakedKod</copyright>
+        <image>
+            <url>https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png</url>
+            <title>שיחה ללא נושא</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS</link>
+        </image>
+        <lastBuildDate>Thu, 23 Feb 2023 20:00:00 +0000</lastBuildDate>
+        <itunes:author>ShakedKod</itunes:author>
+        <itunes:owner>
+            <itunes:name>ShakedKod</itunes:name>
+            <itunes:email>shakedkod@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+        <itunes:subtitle>על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.</itunes:subtitle>
+        <itunes:summary>
+            <![CDATA[על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.]]>
+        </itunes:summary>
+        <itunes:category text="Arts"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:type>episodic</itunes:type >
+        <googleplay:author>ShakedKod</googleplay:author>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 9 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>דיון חסר תֶּמָה</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep9</link>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2309.mp3" length="1867000" type="audio/mp3"/>
+            <itunes:duration>1867</itunes:duration>
+            <pubDate>Thu, 23 Feb 2023 20:00:00 +0000</pubDate>
+            <description>
+                <![CDATA[הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.
+סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.
+                האזנה נעימה!
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<br>
+
+<strong>-=חלקי הפרק=-</strong>
+00:00 - פתיח עם גילי
+02:00 - ליטרלי כל שאר הפרק
+29:51 - הסוף
+<br>
+
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>© ShakedKod 2023</strong>]]>
+            </description>
+            <googleplay:description>הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.&#13;
+סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.&#13;
+                האזנה נעימה!&#13;
+&#13;
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;
+&#13;
+<strong>-=חלקי הפרק=-</strong>&#13;
+00:00 - פתיח עם גילי&#13;
+02:00 - ליטרלי כל שאר הפרק&#13;
+29:51 - הסוף&#13;
+&#13;
+<strong>-=קישורים=-</strong>&#13;
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;
+&#13;
+© ShakedKod 2023&#13;</googleplay:description>
+            <itunes:subtitle>הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.
+סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.
+                האזנה נעימה!
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<br>
+
+<strong>-=חלקי הפרק=-</strong>
+00:00 - פתיח עם גילי
+02:00 - ליטרלי כל שאר הפרק
+29:51 - הסוף
+<br>
+
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>© ShakedKod 2023</strong>]]>
+            </itunes:summary>
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 8 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>קצת מזה וקצת מזה</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep8</link>
+            <description>
+                <![CDATA[הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.
+כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?
+שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!
+                האזנה נעימה!
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<br>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>© ShakedKod 2023</strong>]]>
+            </description>
+            <googleplay:description>הפרק השביעי של שיחה ללא נושא עם שקד, חדיב, ועמרי.&#13;
+כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?&#13;
+שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!&#13;
+                האזנה נעימה!&#13;
+&#13;
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;
+&#13;
+<strong>-=קישורים=-</strong>&#13;
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;
+&#13;
+© ShakedKod 2023&#13;</googleplay:description>
+            <pubDate>Thu, 17 Jan 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2308.m4a" length="2598000" type="audio/m4a"/>
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.
+כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?
+שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!
+                האזנה נעימה!
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<br>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>© ShakedKod 2023</strong>]]>
+            </itunes:summary>
+            <itunes:duration>2598</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 7 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>על הממשלה, גרעינים, ועוד</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep7</link>
+            <description>
+                <![CDATA[הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.
+בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים
+                האזנה נעימה!
+<br>
+ענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a>
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>-=מוזיקה=-</strong>
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)
+<br>
+<strong>© ShakedKod 2022</strong>]]>
+            </description>
+            <googleplay:description>הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.&#13;
+בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים&#13;
+                האזנה נעימה!&#13;
+&#13;
+ענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a>&#13;
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a>&#13;
+&#13;
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;
+<strong>-=קישורים=-</strong>&#13;
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;
+&#13;
+<strong>-=מוזיקה=-</strong>&#13;
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)&#13;
+&#13;
+© ShakedKod 2022&#13;</googleplay:description>
+            <pubDate>Sun, 18 Dec 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2207.mp3" length="3357000" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.
+בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים
+                האזנה נעימה!
+<br>
+ענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a>
+<br>
+הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>
+קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>
+<br>
+<strong>-=מוזיקה=-</strong>
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)
+<br>
+<strong>© ShakedKod 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>3357</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 6 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>גילי אמרה לי לקרוא לפרק הזה "שיחת בנות" - למרות שהוא לא</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep6</link>
+            <description>
+                <![CDATA[הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.
+בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+<br>
+<strong>-=מוזיקה=-</strong>
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)
+<br>
+<strong>© ShakedKod 2022</strong>]]>
+            </description>
+            <googleplay:description>הפרק השלישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.&#13;
+בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים&#13;
+האזנה נעימה!&#13;
+&#13;
+<strong>-=קישורים=-</strong>&#13;
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+&#13;
+<strong>-=מוזיקה=-</strong>&#13;
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)&#13;
+&#13;
+© ShakedKod 2022&#13;</googleplay:description>
+            <pubDate>Tue, 29 Nov 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2206.mp3" length="3059000" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השלישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.
+בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>
+<br>
+<strong>-=מוזיקה=-</strong>
+* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)
+<br>
+<strong>© ShakedKod 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>3059</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 5 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>מה שלא היה נכנס - פרק בונוס</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep5</link>
+            <description>
+                <![CDATA[הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/
+הפודקאסט באפל מיוזיק - https://podcasts.apple.com/podcast/id1654325732?app=podcast&at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_p&ls=1&mt=2/
+כל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <googleplay:description> הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר&#13;
+האזנה נעימה!&#13;
+&#13;
+-=קישורים=-&#13;
+אתר - https://RadioBenZvi.github.io/&#13;
+יוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og&#13;
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;
+הפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/&#13;
+כל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/&#13;
+&#13;
+-=מוזיקה=-&#13;
+* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;
+&#13;
+© Radio Ben Zvi 2022&#13;</googleplay:description>
+            <pubDate>Tue, 15 Nov 2022 16:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2205.mp3" length="1260000" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle> הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/
+הפודקאסט באפל מיוזיק - https://podcasts.apple.com/podcast/id1654325732?app=podcast&at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_p&ls=1&mt=2/
+כל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>1260</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>bonus</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 4 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>לאן הגענו?</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep4</link>
+            <description>
+                <![CDATA[הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.
+בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* TheFatRat - Xenogenesis
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <googleplay:description>הפרק השלישי של שיחה ללא נושא עם שקד,רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.&#13;
+בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים&#13;
+האזנה נעימה!&#13;
+&#13;
+-=קישורים=-&#13;
+אתר - https://RadioBenZvi.github.io/&#13;
+יוטיוב - &#13;
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;
+הפודקאסט באפל מיוזיק - &#13;
+כל הפרקים ביוטיוב - &#13;
+&#13;
+-=מוזיקה=-&#13;
+* TheFatRat - Xenogenesis&#13;
+&#13;
+© Radio Ben Zvi 2022&#13;</googleplay:description>
+            <pubDate>Tue, 27 Oct 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2204.mp3" length="2343000" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השלישי של שיחה ללא נושא עם שקד,רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.
+בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* TheFatRat - Xenogenesis
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>2343</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 3 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>מעולמות שונים</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep3</link>
+            <description>
+                <![CDATA[הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד ואוריאן.
+בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <googleplay:description>הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד, ואוריאן&#13;
+                בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד&#13;
+האזנה נעימה!&#13;
+&#13;
+-=קישורים=-&#13;
+אתר - https://RadioBenZvi.github.io/&#13;
+יוטיוב - &#13;
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;
+הפודקאסט באפל מיוזיק - &#13;
+כל הפרקים ביוטיוב - &#13;
+&#13;
+-=מוזיקה=-&#13;
+* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;
+&#13;
+© Radio Ben Zvi 2022&#13;</googleplay:description>
+            <pubDate>Tue, 27 Sep 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2203.mp3" length="2750000" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד, ואוריאן. בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד. האזנה נעימה!</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד, ואוריאן.
+                בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד
+                האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - <a herf="https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392">https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<a/>
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>2750</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 2 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>גרמנית, ג'אווה ועוד שירים</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep2</link>
+            <description>
+                <![CDATA[הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.
+בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד
+האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - <a herf="https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392">https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<a/>
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <googleplay:description>הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.&#13;
+בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס, ועוד&#13;
+האזנה נעימה!&#13;
+&#13;
+-=קישורים=-&#13;
+אתר - https://RadioBenZvi.github.io/&#13;
+יוטיוב - &#13;
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;
+הפודקאסט באפל מיוזיק - &#13;
+כל הפרקים ביוטיוב - &#13;
+&#13;
+-=מוזיקה=-&#13;
+* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;
+&#13;
+© Radio Ben Zvi 2022&#13;</googleplay:description>
+            <pubDate>Tue, 20 Sep 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2202.mp3" length="99038918" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה. בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד האזנה נעימה! </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.
+בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד
+האזנה נעימה!
+<br>
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - <a herf="https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392">https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<a/>
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+<br>
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+<br>
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>3742</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 1 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>על מבחנים, החיים ושירים</title>
+            <link>https://ShakedKodPodcasts.studio/ATWAS/Ep1</link>
+            <description>
+                <![CDATA[הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.
+            בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד
+            האזנה נעימה!
+
+            <strong>-=קישורים=-</strong>
+            אתר - https://RadioBenZvi.github.io/
+            <a herf="">יוטיוב</a>
+            <a herf="">הפודקאסט בספוטיפי</a>
+            <a herf="">הפודקאסט באפל מיוזיק</a>
+            <a herf="">כל הפרקים ביוטיוב</a>
+
+            <strong>-=מוזיקה=-</strong>
+            * <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a>
+                
+            <strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <pubDate>Tue, 13 Sep 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/Shakedkod/ATWAS_Podcast/raw/main/audio/2201.mp3" length="99038918" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועודהאזנה נעימה!-=קישורים=-אתריוטיובהפודקאסט בספוטיפי[בקרוב]הפודקאסט באפל מיוזיק[בקרוב]כל הפרקים ביוטיוב[בקרוב]-=מוזיקה=-Links© Radio Ben Zvi 2022</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.
+                בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד
+                האזנה נעימה!
+            
+                <strong>-=קישורים=-</strong>
+                <a herf="https://RadioBenZvi.github.io/">אתר</a>
+                <a herf="">יוטיוב</a>
+                <a herf="">הפודקאסט בספוטיפי</a>
+                <a herf="">הפודקאסט באפל מיוזיק</a>
+                <a herf="">כל הפרקים ביוטיוב</a>
+
+                <strong>-=מוזיקה=-</strong>
+                * <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a>
+                
+                <strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>4127</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/ShakedKod/ATWAS_Podcast/raw/main/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--  The End  -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+    </channel>
+</rss>
