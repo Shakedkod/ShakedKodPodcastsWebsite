@@ -11,7 +11,7 @@
         <category>History</category>
         <copyright>©ShakedKod</copyright>
         <image>
-            <url>https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/logo.png</url>
+            <url>http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/logo.png</url>
             <title>פודקאסט ללא נושא</title>
             <link>https://podcasts.shakedkod.tech/PWAS</link>
         </image>
@@ -21,7 +21,7 @@
             <itunes:name>ShakedKod</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/logo.png"/>
+        <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/logo.png"/>
         <itunes:subtitle>בפודקאסט זה, כל פרק על נושא אחר ומעניין</itunes:subtitle>
         <itunes:summary>
             <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
@@ -76,7 +76,7 @@ _____________________________________________&#13;
             <itunes:duration>2353</itunes:duration>
             <itunes:keywords>היסטוריה,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep7.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep7.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>bonus</itunes:episodeType>
         </item>
@@ -223,7 +223,7 @@ _____________________________________________
             <itunes:duration>849</itunes:duration>
             <itunes:keywords>היסטוריה,העיר_של_לונדון,לונדון,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep6.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep6.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -291,7 +291,7 @@ Alexander Nakarada - Magic Tavern&#13;
             <itunes:duration>424</itunes:duration>
             <itunes:keywords>הגנהעלהצומח,היסטוריה,ועוד,סיפורים,פודקאסטללאנושא,פרחים,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep5.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep5.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -364,7 +364,7 @@ Approaching Nirvana - Keystone&#13;
             <itunes:duration>807</itunes:duration>
             <itunes:keywords>מצות,סיפורים,עלילותדם,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep4.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep4.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -420,7 +420,7 @@ Luis Humanoide - A Ride in an...
             <itunes:duration>439</itunes:duration>
             <itunes:keywords>חלקא,מצות,פודקאסטללאנושא,פסח,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep3.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep3.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -495,7 +495,7 @@ SilentCrafter - Dream == https://youtu.be/hnYDJ7wWWB4&#13;
             <itunes:duration>361</itunes:duration>
             <itunes:keywords>אוטובוסים,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep2.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep2.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -559,7 +559,7 @@ _____________________________________________________________________&#13;
             <itunes:duration>1000</itunes:duration>
             <itunes:keywords>אור,בעיות,סיפורים,פודקאסטללאנושא</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/images/Ep1.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep1.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
