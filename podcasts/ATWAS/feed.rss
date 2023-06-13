@@ -6,12 +6,12 @@
         <description>
             <![CDATA[על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.]]>
         </description>
-        <atom:link href="https://rss.shakedkod.tech" rel="self" type="application/rss+xml"/>
+        <atom:link href="http://podcasts.shakedkod.tech/podcasts/ATWAS/feed.rss" rel="self" type="application/rss+xml"/>
         <language>he</language>
         <category>Entertainment</category>
         <copyright>©ShakedKod</copyright>
         <image>
-            <url>https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png</url>
+            <url>http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png</url>
             <title>שיחה ללא נושא</title>
             <link>https://podcasts.shakedkod.tech/ATWAS</link>
         </image>
@@ -21,7 +21,7 @@
             <itunes:name>ShakedKod</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+        <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
         <itunes:subtitle>על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.</itunes:subtitle>
         <itunes:summary>
             <![CDATA[על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.]]>
@@ -110,7 +110,7 @@
             <itunes:author>ShakedKod</itunes:author>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -178,7 +178,7 @@
             <itunes:duration>2598</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -258,7 +258,7 @@
             <itunes:duration>3357</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -320,7 +320,7 @@
             <itunes:duration>3059</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -393,7 +393,7 @@
             <itunes:duration>1260</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>bonus</itunes:episodeType>
         </item>
@@ -467,7 +467,7 @@
             <itunes:duration>2343</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -541,7 +541,7 @@
             <itunes:duration>2750</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -615,7 +615,7 @@
             <itunes:duration>3742</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -674,7 +674,7 @@
             <itunes:duration>4127</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/ShakedKod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ATWAS/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ATWAS/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
