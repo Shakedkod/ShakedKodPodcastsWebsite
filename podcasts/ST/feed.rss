@@ -21,7 +21,7 @@
             <itunes:name>Radio Ben Zvi</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+        <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
         <itunes:subtitle>בחטיבת בן צבי, בשיעורי תקשורת, התלמידים מכינים פודקאסטים בכל שנה, הפודקאסטים של הקבוצות הנבחרות עולות לפה</itunes:subtitle>
         <itunes:summary>
             <![CDATA[בחטיבת בן צבי, בשיעורי תקשורת, התלמידים מכינים פודקאסטים בכל שנה, הפודקאסטים של הקבוצות הנבחרות עולות לפה]]>
@@ -30,7 +30,7 @@
         <itunes:explicit>clean</itunes:explicit>
         <itunes:type>episodic</itunes:type>
         <googleplay:author>Radio Ben Zvi</googleplay:author>
-        <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+        <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
         <googleplay:email>shakedkod@gmail.com</googleplay:email>
         <googleplay:description>בחטיבת בן צבי, בשיעורי תקשורת, התלמידים מכינים פודקאסטים בכל שנה, הפודקאסטים של הקבוצות הנבחרות עולות לפה</googleplay:description>
         <googleplay:category text="Education"/>
@@ -459,11 +459,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>466</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -478,11 +478,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>507</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -497,11 +497,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>653</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -516,11 +516,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>1026</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -535,11 +535,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>454</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -554,11 +554,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>324</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
         <item>
@@ -573,11 +573,11 @@
             <itunes:author>Radio Ben Zvi</itunes:author>
             <itunes:duration>712</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
-            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/pt/assets/images/logo.png"/>
+            <googleplay:image href="http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png"/>
             <googleplay:explicit>No</googleplay:explicit>
         </item>
     </channel>
