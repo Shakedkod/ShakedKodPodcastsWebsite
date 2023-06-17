@@ -2,18 +2,18 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>התלמידים מדברים</title>
-        <link>https://podcasts.shakedkod.tech/PT</link>
+        <link>https://podcasts.shakedkod.tech/ST</link>
         <description>
             <![CDATA[בחטיבת בן צבי, בשיעורי תקשורת, התלמידים מכינים פודקאסטים בכל שנה, הפודקאסטים של הקבוצות הנבחרות עולות לפה]]>
         </description>
-        <atom:link href="https://podcasts.shakedkod.tech/podcasts/PT/feed.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://podcasts.shakedkod.tech/podcasts/ST/feed.rss" rel="self" type="application/rss+xml"/>
         <language>he</language>
         <category>Education</category>
         <copyright>©Radio Ben Zvi</copyright>
         <image>
-            <url>http://podcasts.shakedkod.tech/podcasts/PT/assets/images/logo.png</url>
+            <url>http://podcasts.shakedkod.tech/podcasts/ST/assets/images/logo.png</url>
             <title>התלמידים מדברים</title>
-            <link>https://podcasts.shakedkod.tech/PT</link>
+            <link>https://podcasts.shakedkod.tech/ST</link>
         </image>
         <lastBuildDate>Sat, 17 Jun 2023 20:00:00 +0000</lastBuildDate>
         <itunes:author>Radio Ben Zvi</itunes:author>
@@ -44,14 +44,14 @@
         <!--    //     -->
         <item>
             <title>האמת בפנים</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep20</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep20</link>
             <description>
                 <![CDATA[בתי הספר בארץ כיום בוחנים את התלמידים באמצעות בחינות.  אך האם דרך זו עדכנית ורלוונטית? כינסנו את הפאנל שלנו כדי לענות על השאלה החשובה הזאת]]>
             </description>
             <googleplay:description>בתי הספר בארץ כיום בוחנים את התלמידים באמצעות בחינות.  אך האם דרך זו עדכנית ורלוונטית? כינסנו את הפאנל שלנו כדי לענות על השאלה החשובה הזאת</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/TestsInSchool.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/TestsInSchool.mp3" 
                 length="721000"
                 type="audio/mp3"
             />
@@ -69,7 +69,7 @@
         </item>
         <item>
             <title>דיקטטורה או חלטורה</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep19</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep19</link>
             <description>
                 <![CDATA[מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!
 הסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. 
@@ -80,7 +80,7 @@
 מסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Dictatorship.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Dictatorship.mp3" 
                 length="1392000"
                 type="audio/mp3"
             />
@@ -102,14 +102,14 @@
         </item>
         <item>
             <title>מגרש משלה</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep18</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep18</link>
             <description>
                 <![CDATA[בפודקאסט שלנו דיברנו על האם צריך לאפשר לנשים וגברים להתאמן יחד בתחרויות הספורט השונות, ומה ההבדלים בין נשים וגברים בתחום(מבחינה גופנית, מנטלית ומבחינת מודעות לספורט) שיתפנו דעות שונות ודומות הסכמות ואי הסכמות, וכמובן נשמח לדעת מה דעתכם.]]>
             </description>
             <googleplay:description>בפודקאסט שלנו דיברנו על האם צריך לאפשר לנשים וגברים להתאמן יחד בתחרויות הספורט השונות, ומה ההבדלים בין נשים וגברים בתחום(מבחינה גופנית, מנטלית ומבחינת מודעות לספורט) שיתפנו דעות שונות ודומות הסכמות ואי הסכמות, וכמובן נשמח לדעת מה דעתכם.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/HerOwnCourt.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/HerOwnCourt.mp3" 
                 length="795000"
                 type="audio/mp3"
             />
@@ -127,14 +127,14 @@
         </item>
         <item>
             <title>בוחן פתע</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep17</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep17</link>
             <description>
                 <![CDATA[ההסכת שלנו מדבר על שיטת המבחנים, שהיא שיטת הערכה נפוצה בבתי הספר. נבדוק האם הם יעילים היום,  האם הם תורמים לתלמידים.ות, ונשמע על הערכות מידע חליפיות, שעשויות להחליף אותם.]]>
             </description>
             <googleplay:description>ההסכת שלנו מדבר על שיטת המבחנים, שהיא שיטת הערכה נפוצה בבתי הספר. נבדוק האם הם יעילים היום,  האם הם תורמים לתלמידים.ות, ונשמע על הערכות מידע חליפיות, שעשויות להחליף אותם.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Tests.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Tests.mp3" 
                 length="1178000"
                 type="audio/mp3"
             />
@@ -152,14 +152,14 @@
         </item>
         <item>
             <title>רפואה דחופה</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep16</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep16</link>
             <description>
                 <![CDATA[רפואה בטיפול נמרץ בבית חולים הינה מקצוע מאתגר ומורכב, המביא איתו חוויות מפחידות ומלהיבות כאחד. הרופאים בתחום עובדים במסגרת קשה באופן קשה לתיאור, ועשויים להתמודד עם מקרים מורכבים וקשים מאוד. הצטרפו אלינו היום לשיחה עם רופא במחלקת טיפול נמרץ לב על עבודתו וחייו המורכבים.]]>
             </description>
             <googleplay:description>רפואה בטיפול נמרץ בבית חולים הינה מקצוע מאתגר ומורכב, המביא איתו חוויות מפחידות ומלהיבות כאחד. הרופאים בתחום עובדים במסגרת קשה באופן קשה לתיאור, ועשויים להתמודד עם מקרים מורכבים וקשים מאוד. הצטרפו אלינו היום לשיחה עם רופא במחלקת טיפול נמרץ לב על עבודתו וחייו המורכבים.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Medic.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Medic.mp3" 
                 length="691000"
                 type="audio/mp3"
             />
@@ -177,7 +177,7 @@
         </item>
         <item>
             <title>התחממות גלובלית וזיהום סביבתי</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep15</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep15</link>
             <description>
                 <![CDATA[-זיהום וגזי חממה וההשפעה שלהם
 -תחליפים לייצור אנרגיה מנפט ופחם
@@ -194,7 +194,7 @@
 אנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/GlobalWarming.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/GlobalWarming.mp3" 
                 length="770000"
                 type="audio/mp3"
             />
@@ -222,14 +222,14 @@
         </item>
         <item>
             <title>מלחמת אוקריינה-רוסיה מהצד של ישראל</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep14</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep14</link>
             <description>
                 <![CDATA[בראיון  ראיינו את יואב בסטריצקי שהיה סגן שגריר ישראל באוקראינה והוא סיפר לנו כיצד ישראל עזרה ותרמה לאוקראינה. הוא התחיל ופירט על איך בכלל התחילה המלחמה ומה קרה עם הישראלים שהיו שם. לאחר מכן הוסיף על בית החולים שדה "כוכב מאיר" שהקימו באוקראינה, והתרומה הרבה לאוקראינים.]]>
             </description>
             <googleplay:description>בראיון  ראיינו את יואב בסטריצקי שהיה סגן שגריר ישראל באוקראינה והוא סיפר לנו כיצד ישראל עזרה ותרמה לאוקראינה. הוא התחיל ופירט על איך בכלל התחילה המלחמה ומה קרה עם הישראלים שהיו שם. לאחר מכן הוסיף על בית החולים שדה "כוכב מאיר" שהקימו באוקראינה, והתרומה הרבה לאוקראינים.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/TheUqrainWar.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/TheUqrainWar.mp3" 
                 length="703000"
                 type="audio/mp3"
             />
@@ -247,7 +247,7 @@
         </item>
         <item>
             <title>מסע בזמן | אלפרד נובל</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep13</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep13</link>
             <description>
                 <![CDATA[אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. 
 בפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!]]>
@@ -256,7 +256,7 @@
 בפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Nobel.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Nobel.mp3" 
                 length="380000"
                 type="audio/mp3"
             />
@@ -276,14 +276,14 @@
         </item>
         <item>
             <title>נושאים לחיים | שילוב</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep12</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep12</link>
             <description>
                 <![CDATA[מה  קורה בבית עם ילדים בחינוך מיוחד? מה קורה עם ההורים שלהם? מה קרה בקורונה שכל המדינה הייתה בבית? איך הם משתלבים בבתי הספר? כל זה מנקודת המבט של מטפלת.]]>
             </description>
             <googleplay:description>מה  קורה בבית עם ילדים בחינוך מיוחד? מה קורה עם ההורים שלהם? מה קרה בקורונה שכל המדינה הייתה בבית? איך הם משתלבים בבתי הספר? כל זה מנקודת המבט של מטפלת.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Intercetions.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Intercetions.mp3" 
                 length="1400000"
                 type="audio/mp3"
             />
@@ -301,14 +301,14 @@
         </item>
         <item>
             <title>טרנדים ברשת</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep11</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep11</link>
             <description>
                 <![CDATA[בפאנל זה נדון בשאלה הגדולה למה כל כך מתלהבים מטרנדים והאם זה דבר טוב ושווה. כל אחד מחברי הפאנל יביע את דעתו וכך נחליט האם טרנדים זה דבר טוב ובכלל האם שווה להוציא עליהם את הכסף שלנו. נדון בטרנדים הקשורים למאכלים ובטרנדים שהם בעצם מעין "אתגרים"]]>
             </description>
             <googleplay:description>בפאנל זה נדון בשאלה הגדולה למה כל כך מתלהבים מטרנדים והאם זה דבר טוב ושווה. כל אחד מחברי הפאנל יביע את דעתו וכך נחליט האם טרנדים זה דבר טוב ובכלל האם שווה להוציא עליהם את הכסף שלנו. נדון בטרנדים הקשורים למאכלים ובטרנדים שהם בעצם מעין "אתגרים"</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Trends.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Trends.mp3" 
                 length="420000"
                 type="audio/mp3"
             />
@@ -326,14 +326,14 @@
         </item>
         <item>
             <title>האנושות בחלל והתיישבות במאדים</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep10</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep10</link>
             <description>
                 <![CDATA[אי פעם שאלתם את עצמכם מה האתגרים בהתיישבות על מאדים? או הציפיות המרכזיות של האנושות בחלל ? ובכן הגעתם למקום הנכון. בפודקאסט האנושות בחלל וההתיישבות במאדים" יש מגוון רחב של תשובות הנוגעות לנושאים הללו, איתנו יהיה ממדריך בכיר מהפלנטניה, אלעד לרנר בכור מרתק שנושם את החלל מידי יום. אם אתם אנשים שאוהבים את החלל ונושמים אותו אתם מוזמנים להאזין ולהתרשם.]]>
             </description>
             <googleplay:description>אי פעם שאלתם את עצמכם מה האתגרים בהתיישבות על מאדים? או הציפיות המרכזיות של האנושות בחלל ? ובכן הגעתם למקום הנכון. בפודקאסט האנושות בחלל וההתיישבות במאדים" יש מגוון רחב של תשובות הנוגעות לנושאים הללו, איתנו יהיה ממדריך בכיר מהפלנטניה, אלעד לרנר בכור מרתק שנושם את החלל מידי יום. אם אתם אנשים שאוהבים את החלל ונושמים אותו אתם מוזמנים להאזין ולהתרשם.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/Mars.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/Mars.mp3" 
                 length="926000"
                 type="audio/mp3"
             />
@@ -351,7 +351,7 @@
         </item>
         <item>
             <title>הרפורמה המשפטית</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep10</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep10</link>
             <description>
                 <![CDATA[ההסכת שלנו הוא בנושא המהפכה המשפטית במדינת ישראל. אנו נציג מהי בכלל הרפורמה
 המשפטית ונקיים דיון בנושא וננסה להציג את שני הצדדים. ( גילוי נאות- אנחנו כולנו נגד המהפכה המשפטית).]]>
@@ -360,7 +360,7 @@
 המשפטית ונקיים דיון בנושא וננסה להציג את שני הצדדים. ( גילוי נאות- אנחנו כולנו נגד המהפכה המשפטית).</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/TheJustisSystem.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/TheJustisSystem.mp3" 
                 length="399000"
                 type="audio/mp3"
             />
@@ -380,14 +380,14 @@
         </item>
         <item>
             <title>מצעד הגאווה</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep9</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep9</link>
             <description>
                 <![CDATA[מצעד הגאווה מעורר הרבה מחלוקות ושאלות, והיום אנחנו ננסה לענות על רובן, היום נזמין לפודקאסט את גלעד שחמון, שיענה לנו על השאלות.]]>
             </description>
             <googleplay:description>מצעד הגאווה מעורר הרבה מחלוקות ושאלות, והיום אנחנו ננסה לענות על רובן, היום נזמין לפודקאסט את גלעד שחמון, שיענה לנו על השאלות.</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/LGBTQ.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/LGBTQ.mp3" 
                 length="618000"
                 type="audio/mp3"
             />
@@ -405,7 +405,7 @@
         </item>
         <item>
             <title>יציאה בשאלה | התהליך של שרה לסטר</title>
-            <link>https://podcasts.shakedkod.tech/PT/Ep8</link>
+            <link>https://podcasts.shakedkod.tech/ST/Ep8</link>
             <description>
                 <![CDATA[הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.
 מסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה
@@ -418,7 +418,7 @@
 לאף אחד לפספס</googleplay:description>
             <pubDate>Sat, 17 Jun 2023 20:00:00 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2023/FromReligusToNot.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2023/FromReligusToNot.mp3" 
                 length="780000"
                 type="audio/mp3"
             />
@@ -449,10 +449,10 @@
         <!--    //     -->
         <item>
             <title>שימוש באלכוהול וסמים בקרב בני נוער</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep7</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep7</link>
             <pubDate>Tue, 21 Jun 2022 18:06:47 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/drugsWitrhTeens.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/drugsWitrhTeens.mp3" 
                 length="7457623" 
                 type="audio/mpeg"
             />
@@ -468,10 +468,10 @@
         </item>
         <item>
             <title>רפורמת הבגרויות</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep6</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep6</link>
             <pubDate>Tue, 21 Jun 2022 18:06:02 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/Bagrot.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/Bagrot.mp3" 
                 length="8104506" 
                 type="audio/mpeg"
             />
@@ -487,10 +487,10 @@
         </item>
         <item>
             <title>שיח על תקופת מבחנים</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep5</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep5</link>
             <pubDate>Tue, 21 Jun 2022 18:05:55 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/Tests.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/Tests.mp3" 
                 length="10436902" 
                 type="audio/mpeg"
             />
@@ -506,10 +506,10 @@
         </item>
         <item>
             <title>צמחונות וטבעונות</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep4</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep4</link>
             <pubDate>Tue, 21 Jun 2022 17:49:40 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/Vegetarian.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/Vegetarian.mp3" 
                 length="16417160" 
                 type="audio/mpeg"
             />
@@ -525,10 +525,10 @@
         </item>
         <item>
             <title>החזקת נשק בארהב</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep3</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep3</link>
             <pubDate>Tue, 21 Jun 2022 17:49:36 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/GunInUS.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/GunInUS.mp3" 
                 length="7261120" 
                 type="audio/mpeg"
             />
@@ -544,10 +544,10 @@
         </item>
         <item>
             <title>הבעת דעה במרחב הציבורי</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep2</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep2</link>
             <pubDate>Tue, 21 Jun 2022 17:49:31 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/Opinions.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/Opinions.mp3" 
                 length="5173222" 
                 type="audio/mpeg"
             />
@@ -563,10 +563,10 @@
         </item>
         <item>
             <title>מותגים</title>
-            <link>http://podcasts.shakedkod.tech/PT/Ep1</link>
+            <link>http://podcasts.shakedkod.tech/ST/Ep1</link>
             <pubDate>Tue, 21 Jun 2022 17:49:25 +0000</pubDate>
             <enclosure 
-                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PT/assets/audio/2022/Companies.mp3" 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/ST/assets/audio/2022/Companies.mp3" 
                 length="11393545" 
                 type="audio/mpeg"
             />
