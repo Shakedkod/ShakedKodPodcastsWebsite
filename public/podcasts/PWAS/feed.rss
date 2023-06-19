@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>פודקאסט ללא נושא</title>
+        <link>https://podcasts.shakedkod.tech/PWAS</link>
+        <description>
+            <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
+        </description>
+        <atom:link href="https://podcasts.shakedkod.tech/PWAS/feed.rss" rel="self" type="application/rss+xml"/>
+        <language>he</language>
+        <category>History</category>
+        <copyright>©ShakedKod</copyright>
+        <image>
+            <url>http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/logo.png</url>
+            <title>פודקאסט ללא נושא</title>
+            <link>https://podcasts.shakedkod.tech/PWAS</link>
+        </image>
+        <lastBuildDate>Thu, 23 Feb 2023 20:00:00 +0000</lastBuildDate>
+        <itunes:author>ShakedKod</itunes:author>
+        <itunes:owner>
+            <itunes:name>ShakedKod</itunes:name>
+            <itunes:email>shakedkod@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/logo.png"/>
+        <itunes:subtitle>בפודקאסט זה, כל פרק על נושא אחר ומעניין</itunes:subtitle>
+        <itunes:summary>
+            <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
+        </itunes:summary>
+        <itunes:category text="History"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:type>episodic</itunes:type >
+        <googleplay:author>ShakedKod</googleplay:author>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 8 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>על שודדים ויהודים</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep8</link>
+            <description>
+                <![CDATA[בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.<br/>
+האזנה נעימה,<br/>
+	שקד!
+
+_____
+## -=קרדיטים=-
+כתיבה & קריינות & עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a>
+עריכה לשונית - דורון ורוית קודמן
+עזרה בעריכה ותמיכה מורלית - דורון חיימפור
+עזרה נוספת - <a href="https://www.youtube.com/falconmc" target="_blank">פאלקון</a>
+<br/>
+<a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a>
+
+_____
+## -=מוזיקה=- <br/>
+### Licensees:
+the licensees that are used for obtaining the tracks below(see the num of * besides each track):
+	* Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/
+	** Royalty free for non-commercial use as a background music
+	*** The Arcadium
+<br/>
+### Artists:
+* Alexander Nakarda:
+	- <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a>
+	- <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a>
+	- <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a>
+	- <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a>
+	- <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a>
+* Denny Schneidemesser:
+	- <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a>
+	- <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a>
+	- <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a>
+	- <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a>
+* Fox Sailor:
+	- <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a>
+	- <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a>
+	- <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a>
+	- <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a>
+* Vindsvept:
+	- <a href="https://vindsvept.se" >Website - https://vindsvept.se</a>
+	- <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a>
+	- <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a>
+	- <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a>
+* Luis Humanoide:
+	- <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a>
+	- <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a>
+	- <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a>
+	- <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a>
+	- <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a>
+* TheFatRat:
+	- <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a>
+	- <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a>
+	- <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a>
+	- <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a>
+
+### Tracks:
+* Alexander Nakarada - Percussive Intro *
+* Alexander Nakarada - Wanderer *
+* Denny Schneidemesser - Entering the Stronghold **
+* Fox Sailor - Treasure Hunt **
+* Denny Schneidemesser - Tiny Nomad **
+* Vindsvept - Naglfar, Ship of the Dead *
+* Luis Humanoide - The March of the Crazy Aliens **
+* TheFatRat & Cecilia Gault - Our Song (Instrumental) ***
+* Alexander Nakarada - Spacebuckler *
+* Vindsvept - Flying High *
+* Alexander Nakarada - Land of Pirates *
+* Vindsvept - The Long Awaited Return *
+* Luis Humanoide - Legends of the Highway **
+* Denney Schneidemesser - Thunderdome **
+* Alexander Nakarada - Bonfire *
+* Alexander Nakarada - Emotional Intro *
+* Alexander Nakarada - Nightmare *
+* Fox Sailor - Heart of Adventure **
+* Alexander Nakarada - The Great Battle *
+* Alexander Nakarada - The World's Most Epic Sea Shanty *
+____
+
+## -=חלקי הפרק=-
+00:00 - פתיחה
+01:01 - גירוש ספרד
+02:42 - ברברוסה
+03:55 - סינאן היהודי
+06:48 - הליגה והאסטרגיה
+08:00 - סמואל פאלאצ'י
+09:10 - בחזרה לספרד
+10:59 - קשרים פה, קשרים שם
+13:28 - האינקוויזיציה והעולם החדש
+15:32 - משה כהן הנריקס
+16:22 - המלחמה בין ספרד להולנד
+17:39 - ברזיל ההולנדית
+18:47 - הסוף
+
+____
+
+©ShakedKod 2023]]>
+            </description>
+            <googleplay:description>בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.&#13;
+האזנה נעימה,&#13;
+	שקד!&#13;
+&#13;
+_____
+## -=קרדיטים=-&#13;
+כתיבה, קריינות, עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a>&#13;
+עריכה לשונית - דורון ורוית קודמן&#13;
+עזרה בעריכה ותמיכה מורלית - דורון חיימפור&#13;
+עזרה נוספת - <a href="https://www.youtube.com/falconmc" target="_blank">פאלקון</a>&#13;
+&#13;
+<a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a>&#13;
+&#13;
+_____
+## -=מוזיקה=-&#13;
+### Licensees:&#13;
+the licensees that are used for obtaining the tracks below(see the num of * besides each track):&#13;
+	* Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/ &#13;
+	** Royalty free for non-commercial use as a background music&#13;
+	*** The Arcadium&#13;
+&#13;
+### Artists:&#13;
+* Alexander Nakarda:&#13;
+	- <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a>&#13;
+	- <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a>&#13;
+	- <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a>&#13;
+	- <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a>&#13;
+	- <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a>&#13;
+* Denny Schneidemesser:&#13;
+	- <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a>&#13;
+	- <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a>&#13;
+	- <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a>&#13;
+	- <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a>&#13;
+* Fox Sailor:&#13;
+	- <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a>&#13;
+	- <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a>&#13;
+	- <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a>&#13;
+	- <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a>&#13;
+* Vindsvept:&#13;
+	- <a href="https://vindsvept.se" >Website - https://vindsvept.se</a>&#13;
+	- <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a>&#13;
+	- <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a>&#13;
+	- <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a>&#13;
+* Luis Humanoide:&#13;
+	- <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a>&#13;
+	- <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a>&#13;
+	- <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a>&#13;
+	- <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a>&#13;
+	- <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a>&#13;
+* TheFatRat:&#13;
+	- <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a>&#13;
+	- <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a>&#13;
+	- <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a>&#13;
+	- <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a>&#13;
+&#13;
+### Tracks:&#13;
+* Alexander Nakarada - Percussive Intro *&#13;
+* Alexander Nakarada - Wanderer *&#13;
+* Denny Schneidemesser - Entering the Stronghold **&#13;
+* Fox Sailor - Treasure Hunt **&#13;
+* Denny Schneidemesser - Tiny Nomad **&#13;
+* Vindsvept - Naglfar, Ship of the Dead *&#13;
+* Luis Humanoide - The March of the Crazy Aliens **&#13;
+* TheFatRat and Cecilia Gault - Our Song (Instrumental) ***&#13;
+* Alexander Nakarada - Spacebuckler *&#13;
+* Vindsvept - Flying High *&#13;
+* Alexander Nakarada - Land of Pirates *&#13;
+* Vindsvept - The Long Awaited Return *&#13;
+* Luis Humanoide - Legends of the Highway **&#13;
+* Denney Schneidemesser - Thunderdome **&#13;
+* Alexander Nakarada - Bonfire *&#13;
+* Alexander Nakarada - Emotional Intro *&#13;
+* Alexander Nakarada - Nightmare *&#13;
+* Fox Sailor - Heart of Adventure **&#13;
+* Alexander Nakarada - The Great Battle *&#13;
+* Alexander Nakarada - The World's Most Epic Sea Shanty *&#13;
+&#13;
+____
+&#13;
+## -=חלקי הפרק=-&#13;
+00:00 - פתיחה&#13;
+01:01 - גירוש ספרד&#13;
+02:42 - ברברוסה&#13;
+03:55 - סינאן היהודי&#13;
+06:48 - הליגה והאסטרגיה&#13;
+08:00 - סמואל פאלאצ'י&#13;
+09:10 - בחזרה לספרד&#13;
+10:59 - קשרים פה, קשרים שם&#13;
+13:28 - האינקוויזיציה והעולם החדש&#13;
+15:32 - משה כהן הנריקס&#13;
+16:22 - המלחמה בין ספרד להולנד&#13;
+17:39 - ברזיל ההולנדית&#13;
+18:47 - הסוף&#13;
+&#13;
+____
+&#13;
+©ShakedKod 2023&#13;
+            </googleplay:description>
+            <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep8.mp3"
+                length="1153000" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.&#13;
+האזנה נעימה,&#13;
+	שקד!&#13;
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.<br/>
+האזנה נעימה,<br/>
+	שקד!
+
+_____
+## -=קרדיטים=-
+כתיבה & קריינות & עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a>
+עריכה לשונית - דורון ורוית קודמן
+עזרה בעריכה ותמיכה מורלית - דורון חיימפור
+עזרה נוספת - <a href="https://www.youtube.com/falconmc" target="_blank">פאלקון</a>
+<br/>
+<a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a>
+
+_____
+## -=מוזיקה=- <br/>
+### Licensees:
+the licensees that are used for obtaining the tracks below(see the num of * besides each track):
+	* Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/
+	** Royalty free for non-commercial use as a background music
+	*** The Arcadium
+<br/>
+### Artists:
+* Alexander Nakarda:
+	- <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a>
+	- <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a>
+	- <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a>
+	- <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a>
+	- <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a>
+* Denny Schneidemesser:
+	- <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a>
+	- <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a>
+	- <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a>
+	- <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a>
+* Fox Sailor:
+	- <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a>
+	- <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a>
+	- <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a>
+	- <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a>
+* Vindsvept:
+	- <a href="https://vindsvept.se" >Website - https://vindsvept.se</a>
+	- <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a>
+	- <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a>
+	- <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a>
+* Luis Humanoide:
+	- <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a>
+	- <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a>
+	- <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a>
+	- <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a>
+	- <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a>
+* TheFatRat:
+	- <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a>
+	- <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a>
+	- <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a>
+	- <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a>
+
+### Tracks:
+* Alexander Nakarada - Percussive Intro *
+* Alexander Nakarada - Wanderer *
+* Denny Schneidemesser - Entering the Stronghold **
+* Fox Sailor - Treasure Hunt **
+* Denny Schneidemesser - Tiny Nomad **
+* Vindsvept - Naglfar, Ship of the Dead *
+* Luis Humanoide - The March of the Crazy Aliens **
+* TheFatRat & Cecilia Gault - Our Song (Instrumental) ***
+* Alexander Nakarada - Spacebuckler *
+* Vindsvept - Flying High *
+* Alexander Nakarada - Land of Pirates *
+* Vindsvept - The Long Awaited Return *
+* Luis Humanoide - Legends of the Highway **
+* Denney Schneidemesser - Thunderdome **
+* Alexander Nakarada - Bonfire *
+* Alexander Nakarada - Emotional Intro *
+* Alexander Nakarada - Nightmare *
+* Fox Sailor - Heart of Adventure **
+* Alexander Nakarada - The Great Battle *
+* Alexander Nakarada - The World's Most Epic Sea Shanty *
+____
+
+## -=חלקי הפרק=-
+00:00 - פתיחה
+01:01 - גירוש ספרד
+02:42 - ברברוסה
+03:55 - סינאן היהודי
+06:48 - הליגה והאסטרגיה
+08:00 - סמואל פאלאצ'י
+09:10 - בחזרה לספרד
+10:59 - קשרים פה, קשרים שם
+13:28 - האינקוויזיציה והעולם החדש
+15:32 - משה כהן הנריקס
+16:22 - המלחמה בין ספרד להולנד
+17:39 - ברזיל ההולנדית
+18:47 - הסוף
+
+____
+
+©ShakedKod 2023]]>
+            </itunes:summary>
+            <itunes:duration>1153</itunes:duration>
+            <itunes:keywords>היסטוריה,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep8.png"/>
+            <itunes:season>2</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 7 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>על פצצות ועוד כמה דברים, עם עודד נגבי</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep7</link>
+            <description>
+                <![CDATA[ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 5.
+                <br />
+                _____________________________________________
+                <br />
+                <br />
+                כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </description>
+            <googleplay:description>ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 5&#13;
+_____________________________________________&#13;
+&#13;
+כל הזכויות שמורות לרדיו בן צבי - 2022
+            </googleplay:description>
+            <pubDate>Thu, 1 Sep 2022 10:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep7.mp3"
+                length="2353000" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 5&#13;
+                _____________________________________________&#13;
+                &#13;
+                כל הזכויות שמורות לרדיו בן צבי - 2022
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 5.
+                <br />
+                _____________________________________________
+                <br />
+                <br />
+                כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </itunes:summary>
+            <itunes:duration>2353</itunes:duration>
+            <itunes:keywords>היסטוריה,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep7.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>bonus</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 6 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>לונדון שהיא לא לונדון</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep6</link>
+            <description>
+                <![CDATA[בפרק זה אני דיברתי על העיר שבתוך העיר שבמדינה שבתוך מדינה,
+<br />
+יותר לא אגלה,
+<br />
+האזנה נעימה,
+<br />
+שקד
+<br />
+_____________________________________________
+<br />
+תודה רבה לכל מי שעזר לי עם כל הפרקים של העונה הזאת
+<br />
+הפרק הבא היה הפרק הראשון של העונה השניה והוא יגיע בערך שבוע לאחר החופש הגדול
+<br />
+ועד אז,
+<br />
+תודה רבה לכולכם שהאזנתם!
+<br />
+_____________________________________________
+<br /><br />
+-=קרדיטים=-
+<br />
+נוצר על ידי שקד
+<br />
+פורסם על ידי רדיו בן צבי
+<br />
+הלוגו נוצר בבלנדר(על ידי שקד) - <a href="https://blender.org" rel="noopener">https://blender.org</a>
+<br /><br />
+-=מוזיקה=-
+Luis Humanoide - Waltz of the Souls
+SilentCrafter & OddKid - Hope
+Luis Humanoide - Evil Energy Vortex
+Alexander Nakarada - The Vikings
+Vindsvept - Wayfarer's Journey
+Approaching Nirvana - Keystone
+בנוסף קיימת גם מוזיקה בפרק שאילטרתי בחמש שניות
+<br /><br />
+_____________________________________________
+<br /><br />
+כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </description>
+            <googleplay:description>בפרק זה אני דיברתי על העיר שבתוך העיר שבמדינה שבתוך מדינה,&#13;
+יותר לא אגלה,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+_____________________________________________&#13;
+תודה רבה לכל מי שעזר לי עם כל הפרקים של העונה הזאת&#13;
+הפרק הבא היה הפרק הראשון של העונה השניה והוא יגיע בערך שבוע לאחר החופש הגדול&#13;
+ועד אז,&#13;
+תודה רבה לכולכם שהאזנתם!&#13;
+_____________________________________________&#13;
+&#13;
+-=קרדיטים=-&#13;
+נוצר על ידי שקד&#13;
+פורסם על ידי רדיו בן צבי&#13;
+הלוגו נוצר בבלנדר(על ידי שקד) - https://blender.org&#13;
+&#13;
+-=מוזיקה=-&#13;
+פס הקול של הפרק נוצר על ידי שקד, ויגיע בקרוב לכל הפלטפורמות&#13;
+פס הקול - [יעלה בקרוב]&#13;
+בנוסף לפס הקול, הנה הקרדיטים ליוצרי מוזיקות שונות שגם בהן השתמשתי בפרק זה:&#13;
+Luis Humanoide - Waltz of the Souls &#13;
+SilentCrafter &amp; OddKid - Hope&#13;
+Luis Humanoide - Evil Energy Vortex&#13;
+Alexander Nakarada - The Vikings&#13;
+Vindsvept - Wayfarer's Journey&#13;
+Approaching Nirvana - Keystone&#13;
+&#13;
+_____________________________________________&#13;
+&#13;
+כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022
+            </googleplay:description>
+            <pubDate>Mon, 20 Jun 2022 10:00:03 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep6.mp3" 
+                length="13578498" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק זה אני דיברתי על העיר שבתוך העיר שבמדינה שבתוך מדינה,&#13;
+יותר לא אגלה,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+_____________________________________________&#13;
+תודה רבה לכל מי שעזר לי עם כל הפרקים של העונה הזאת&#13;
+הפרק הבא היה הפרק הראשון של העונה השניה והוא יגיע בערך...
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק זה אני דיברתי על העיר שבתוך העיר שבמדינה שבתוך מדינה,
+<br />
+יותר לא אגלה,
+<br />
+האזנה נעימה,
+<br />
+שקד
+<br />
+_____________________________________________
+<br />
+תודה רבה לכל מי שעזר לי עם כל הפרקים של העונה הזאת
+<br />
+הפרק הבא היה הפרק הראשון של העונה השניה והוא יגיע בערך שבוע לאחר החופש הגדול
+<br />
+ועד אז,
+<br />
+תודה רבה לכולכם שהאזנתם!
+<br />
+_____________________________________________
+<br /><br />
+-=קרדיטים=-
+<br />
+נוצר על ידי שקד
+<br />
+פורסם על ידי רדיו בן צבי
+<br />
+הלוגו נוצר בבלנדר(על ידי שקד) - <a href="https://blender.org" rel="noopener">https://blender.org</a>
+<br /><br />
+-=מוזיקה=-
+Luis Humanoide - Waltz of the Souls
+SilentCrafter & OddKid - Hope
+Luis Humanoide - Evil Energy Vortex
+Alexander Nakarada - The Vikings
+Vindsvept - Wayfarer's Journey
+Approaching Nirvana - Keystone
+בנוסף קיימת גם מוזיקה בפרק שאילטרתי בחמש שניות
+<br /><br />
+_____________________________________________
+<br /><br />
+כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </itunes:summary>
+            <itunes:duration>849</itunes:duration>
+            <itunes:keywords>היסטוריה,העיר_של_לונדון,לונדון,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep6.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 5 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>בין הפרחים לידיים</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep5</link>
+            <description>
+                <![CDATA[בפרק זה תוכלו לשמוע על הקמפיין ששינה את המדינה לחלוטין<br />קמפיין פרחי הבר!<br />וזה יותר מעניין משאתם חושבים,<br />האזנה נעימה,<br />שקד<br /><br />הערה - הקול ב-1:56 הוא לא של ס. יזהר<br /><br /><br />-=תודות=-<br />תודה לכל מי שעזר לי עם הפרק הזה, שכולל את סבי וסבתי<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi/podcasts/PWAS" rel="noopener">https://sites.google.com/view/radiobenzvi/podcast/PWAS</a><br /><br />בלנדר - <a href="https://blender.org" rel="noopener">https://blender.org</a><br /><br />-=מוזיקה=-<br />Luis Humanoide - A Ride in an Automobile(brass)<br />Luis Humanoide - A Ship in the Clouds<br />Luis Humanoide - The Bridge of Eldevior<br />Luis Humanoide - Clocker Neighborhood <br />Alexander Nakarada - Magic Tavern<br />ג'ין בורדו - ואלס לגנת הצומח(מתוך צו השעה)]]>
+            </description>
+            <googleplay:description>בפרק זה תוכלו לשמוע על הקמפיין ששינה את המדינה לחלוטין&#13;
+קמפיין פרחי הבר!&#13;
+וזה יותר מעניין משאתם חושבים,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+הערה - הקול ב-1:56 הוא לא של ס. יזהר&#13;
+&#13;
+&#13;
+-=תודות=-&#13;
+תודה לכל מי שעזר לי עם הפרק הזה, שכולל את סבי וסבתי&#13;
+&#13;
+רדיו בן צבי - https://sites.google.com/view/radiobenzvi/podcasts/PWAS&#13;
+&#13;
+בלנדר - https://blender.org&#13;
+&#13;
+-=מוזיקה=-&#13;
+Luis Humanoide - A Ride in an Automobile(brass)&#13;
+Luis Humanoide - A Ship in the Clouds&#13;
+Luis Humanoide - The Bridge of Eldevior&#13;
+Luis Humanoide - Clocker Neighborhood &#13;
+Alexander Nakarada - Magic Tavern&#13;
+ג'ין בורדו - ואלס לגנת הצומח(מתוך צו השעה)
+            </googleplay:description>
+            <pubDate>Wed, 11 May 2022 15:00:02 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep5.mp3" 
+                length="6777350" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק זה תוכלו לשמוע על הקמפיין ששינה את המדינה לחלוטין&#13;
+קמפיין פרחי הבר!&#13;
+וזה יותר מעניין משאתם חושבים,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+הערה - הקול ב-1:56 הוא לא של ס. יזהר&#13;
+&#13;
+&#13;
+-=תודות=-&#13;
+תודה לכל מי שעזר לי עם הפרק הזה, שכולל את סבי וסבתי&#13;
+&#13;
+רדיו בן צבי -...
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק זה תוכלו לשמוע על הקמפיין ששינה את המדינה לחלוטין<br />קמפיין פרחי הבר!<br />וזה יותר מעניין משאתם חושבים,<br />האזנה נעימה,<br />שקד<br /><br />הערה - הקול ב-1:56 הוא לא של ס. יזהר<br /><br /><br />-=תודות=-<br />תודה לכל מי שעזר לי עם הפרק הזה, שכולל את סבי וסבתי<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi/podcasts/PWAS" rel="noopener">https://sites.google.com/view/radiobenzvi/podcast/PWAS</a><br /><br />בלנדר - <a href="https://blender.org" rel="noopener">https://blender.org</a><br /><br />-=מוזיקה=-<br />Luis Humanoide - A Ride in an Automobile(brass)<br />Luis Humanoide - A Ship in the Clouds<br />Luis Humanoide - The Bridge of Eldevior<br />Luis Humanoide - Clocker Neighborhood <br />Alexander Nakarada - Magic Tavern<br />ג'ין בורדו - ואלס לגנת הצומח(מתוך צו השעה)]]>
+            </itunes:summary>
+            <itunes:duration>424</itunes:duration>
+            <itunes:keywords>הגנהעלהצומח,היסטוריה,ועוד,סיפורים,פודקאסטללאנושא,פרחים,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep5.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 4 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>מצות ועוד מצות - חלק ב</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep4</link>
+            <description>
+                <![CDATA[בחלק השני של מצות ועוד מצות התמקדתי בעלילות והדם והסיפור שלהם עם המצות<br /><br />הפרק הזה קצת יותר קריפי מבדרך כלל<br />אך מהנה לא פחות<br />האזנה נעימה,<br />שקד<br /><br />נ"ב: מצטער על איכות ההקלטה בשני הפרקים האחרונים, לא יכולתי להגיע לאולפן בפסח כדי להקליט<br /><br />-============-<br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br />לוגו נוצר בעזרת בלנדר - <a href="https://blender.org/" rel="noopener">https://blender.org/</a><br /><br />-=מוזיקה=-<br />Alexander Nakarda - Passing Greeting<br />Kevin MacLeod - Awkward Meeting<br />Kevin MacLeod - Bent And Broken<br />Dream Cave - The Great Ascent<br />Alexander Nakarda - Twin Explorers<br />Kevin MacLeod - Classic Horror 1<br />Kevin MacLeod - Controlled Chaos(No Percussion)<br />Kevin MacLeod - Echoes Of Time<br />Alexander Nakarda - Wanderer<br />פודקאסט ללא נושא - מצות ועוד מצות, חלק א'<br />Vindsvept - Clarity<br />Vindsvept - Wanderer<br />Vindsvept - Quest's End<br />Approaching Nirvana - Keystone<br /><br />-============-<br />נוצר על ידי שקד<br />כל הזכויות שמורות לרדיו בן צבי]]>
+            </description>
+            <googleplay:description>בחלק השני של מצות ועוד מצות התמקדתי בעלילות והדם והסיפור שלהם עם המצות&#13;
+&#13;
+הפרק הזה קצת יותר קריפי מבדרך כלל&#13;
+אך מהנה לא פחות&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+נ"ב: מצטער על איכות ההקלטה בשני הפרקים האחרונים, לא יכולתי להגיע לאולפן בפסח כדי להקליט&#13;
+&#13;
+-============-&#13;
+רדיו בן צבי - https://sites.google.com/view/radiobenzvi&#13;
+&#13;
+לוגו נוצר בעזרת בלנדר - https://blender.org/&#13;
+&#13;
+-=מוזיקה=-&#13;
+Alexander Nakarda - Passing Greeting&#13;
+Kevin MacLeod - Awkward Meeting&#13;
+Kevin MacLeod - Bent And Broken&#13;
+Dream Cave - The Great Ascent&#13;
+Alexander Nakarda - Twin Explorers&#13;
+Kevin MacLeod - Classic Horror 1&#13;
+Kevin MacLeod - Controlled Chaos(No Percussion)&#13;
+Kevin MacLeod - Echoes Of Time&#13;
+Alexander Nakarda - Wanderer&#13;
+פודקאסט ללא נושא - מצות ועוד מצות, חלק א'&#13;
+Vindsvept - Clarity&#13;
+Vindsvept - Wanderer&#13;
+Vindsvept - Quest's End&#13;
+Approaching Nirvana - Keystone&#13;
+&#13;
+-============-&#13;
+נוצר על ידי שקד&#13;
+כל הזכויות שמורות לרדיו בן צבי
+            </googleplay:description>
+            <pubDate>Thu, 21 Apr 2022 13:00:03 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep4.mp3" 
+                length="12912936" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בחלק השני של מצות ועוד מצות התמקדתי בעלילות והדם והסיפור שלהם עם המצות&#13;
+&#13;
+הפרק הזה קצת יותר קריפי מבדרך כלל&#13;
+אך מהנה לא פחות&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+נ"ב: מצטער על איכות ההקלטה בשני הפרקים האחרונים, לא יכולתי להגיע לאולפן בפסח כדי להקליט...
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בחלק השני של מצות ועוד מצות התמקדתי בעלילות והדם והסיפור שלהם עם המצות<br /><br />הפרק הזה קצת יותר קריפי מבדרך כלל<br />אך מהנה לא פחות<br />האזנה נעימה,<br />שקד<br /><br />נ"ב: מצטער על איכות ההקלטה בשני הפרקים האחרונים, לא יכולתי להגיע לאולפן בפסח כדי להקליט<br /><br />-============-<br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br />לוגו נוצר בעזרת בלנדר - <a href="https://blender.org/" rel="noopener">https://blender.org/</a><br /><br />-=מוזיקה=-<br />Alexander Nakarda - Passing Greeting<br />Kevin MacLeod - Awkward Meeting<br />Kevin MacLeod - Bent And Broken<br />Dream Cave - The Great Ascent<br />Alexander Nakarda - Twin Explorers<br />Kevin MacLeod - Classic Horror 1<br />Kevin MacLeod - Controlled Chaos(No Percussion)<br />Kevin MacLeod - Echoes Of Time<br />Alexander Nakarda - Wanderer<br />פודקאסט ללא נושא - מצות ועוד מצות, חלק א'<br />Vindsvept - Clarity<br />Vindsvept - Wanderer<br />Vindsvept - Quest's End<br />Approaching Nirvana - Keystone<br /><br />-============-<br />נוצר על ידי שקד<br />כל הזכויות שמורות לרדיו בן צבי]]>
+            </itunes:summary>
+            <itunes:duration>807</itunes:duration>
+            <itunes:keywords>מצות,סיפורים,עלילותדם,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep4.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 3 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>מצות ועוד מצות - חלק א</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep3</link>
+            <description>
+                <![CDATA[בפרק זה של פודקאסט ללא נושא, ספיישל פסח ואיתו הסיפור על המצות<br />מהתקופה התנכית ועד היום<br />זהו חלק אחד מתוך שניים, והשני יפורסם בערב חג שני<br />האזנה נעימה,<br />שקד<br /><br />-=מוזיקה=-<br />Fox Sailor - Fabula<br />Vindsvept - Lake of Light<br />Luis Humanoide - A Ride in an Automobile(strings)<br />Luis Humanoide - Clocker Neighborhood<br />Vindsvept - Filmbulwinter, Winter Following Winter<br />Luis Humanoide - The Bridge of Eldevior<br />די דיינו]]>
+            </description>
+            <googleplay:description>בפרק זה של פודקאסט ללא נושא, ספיישל פסח ואיתו הסיפור על המצות&#13;
+מהתקופה התנכית ועד היום&#13;
+זהו חלק אחד מתוך שניים, והשני יפורסם בערב חג שני&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+-=מוזיקה=-&#13;
+Fox Sailor - Fabula&#13;
+Vindsvept - Lake of Light&#13;
+Luis Humanoide - A Ride in an Automobile(strings)&#13;
+Luis Humanoide - Clocker Neighborhood&#13;
+Vindsvept - Filmbulwinter, Winter Following Winter&#13;
+Luis Humanoide - The Bridge of Eldevior&#13;
+די דיינו
+            </googleplay:description>
+            <pubDate>Fri, 15 Apr 2022 13:26:42 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep3.mp3" 
+                length="7025145" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק זה של פודקאסט ללא נושא, ספיישל פסח ואיתו הסיפור על המצות&#13;
+מהתקופה התנכית ועד היום&#13;
+זהו חלק אחד מתוך שניים, והשני יפורסם בערב חג שני&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+-=מוזיקה=-&#13;
+Fox Sailor - Fabula&#13;
+Vindsvept - Lake of Light&#13;
+Luis Humanoide - A Ride in an...
+            </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק זה של פודקאסט ללא נושא, ספיישל פסח ואיתו הסיפור על המצות<br />מהתקופה התנכית ועד היום<br />זהו חלק אחד מתוך שניים, והשני יפורסם בערב חג שני<br />האזנה נעימה,<br />שקד<br /><br />-=מוזיקה=-<br />Fox Sailor - Fabula<br />Vindsvept - Lake of Light<br />Luis Humanoide - A Ride in an Automobile(strings)<br />Luis Humanoide - Clocker Neighborhood<br />Vindsvept - Filmbulwinter, Winter Following Winter<br />Luis Humanoide - The Bridge of Eldevior<br />די דיינו]]>
+            </itunes:summary>
+            <itunes:duration>439</itunes:duration>
+            <itunes:keywords>חלקא,מצות,פודקאסטללאנושא,פסח,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep3.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 2 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>אוטובוסים ועוד</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep2</link>
+            <description>
+                <![CDATA[בפרק קצר זה של פודקאסט ללא נושא, אני אדבר על ההיסטוריה, והעתיד של האוטובוסים ועוד כמה דברים,<br />האזנה נעימה,<br />שקד<br /><br /><br />נ"ב: מצטער שלקח כל כך הרבה זמן לפרק הזה להגיע, אין לי זמן <br />  <br /><br />------------------------------------------------------<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br />הלוגו נוצר בבלנדר - <a href="https://blender.org/" rel="noopener">https://blender.org/</a><br /><br />------------------------------------------------------<br />  <br />רשות למוזיקה<br />----<br />CC BY 4.0: <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a> <br />The Diverse Free<br /><br />המוזיקה<br />-----  <br />Luis Humanoide - A Ride in an Automobile == <a href="https://youtu.be/xejIrCkkAks" rel="noopener">https://youtu.be/xejIrCkkAks</a> <br />Scott Joplin - The Entertainer(1902) == <a href="https://youtu.be/fPmruHc4S9Q" rel="noopener">https://youtu.be/fPmruHc4S9Q</a><br />Vindsvept - The Fall == <a href="https://youtu.be/7qTjny1qoXs" rel="noopener">https://youtu.be/7qTjny1qoXs</a><br />BrothaD - No Where == <a href="https://prosearch.tribeofnoise.com/artists/show/44327/23835" rel="noopener">https://prosearch.tribeofnoise.com/artists/show/44327/23835</a><br />Vindsvept - Across the Plains == <a href="https://youtu.be/ZDokgvuuS7E" rel="noopener">https://youtu.be/ZDokgvuuS7E</a><br />SilentCrafter - Dream == <a href="https://youtu.be/hnYDJ7wWWB4" rel="noopener">https://youtu.be/hnYDJ7wWWB4</a><br />  <br />-----------------------------------------<br />  <br />נוצר על ידי שקד<br />כל הזכויות שמורות לרדיו בן צבי]]>
+            </description>
+            <googleplay:description>בפרק קצר זה של פודקאסט ללא נושא, אני אדבר על ההיסטוריה, והעתיד של האוטובוסים ועוד כמה דברים,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+&#13;
+נ"ב: מצטער שלקח כל כך הרבה זמן לפרק הזה להגיע, אין לי זמן &#13;
+  &#13;
+&#13;
+------------------------------------------------------&#13;
+&#13;
+רדיו בן צבי - https://sites.google.com/view/radiobenzvi&#13;
+&#13;
+הלוגו נוצר בבלנדר - https://blender.org/&#13;
+&#13;
+------------------------------------------------------&#13;
+  &#13;
+רשות למוזיקה&#13;
+----&#13;
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ &#13;
+The Diverse Free&#13;
+&#13;
+המוזיקה&#13;
+-----  &#13;
+Luis Humanoide - A Ride in an Automobile == https://youtu.be/xejIrCkkAks &#13;
+Scott Joplin - The Entertainer(1902) == https://youtu.be/fPmruHc4S9Q&#13;
+Vindsvept - The Fall == https://youtu.be/7qTjny1qoXs&#13;
+BrothaD - No Where == https://prosearch.tribeofnoise.com/artists/show/44327/23835&#13;
+Vindsvept - Across the Plains == https://youtu.be/ZDokgvuuS7E&#13;
+SilentCrafter - Dream == https://youtu.be/hnYDJ7wWWB4&#13;
+  &#13;
+-----------------------------------------&#13;
+  &#13;
+נוצר על ידי שקד&#13;
+כל הזכויות שמורות לרדיו בן צבי</googleplay:description>
+            <pubDate>Tue, 11 Jan 2022 15:45:17 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep2.mp3" 
+                length="5765053" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק קצר זה של פודקאסט ללא נושא, אני אדבר על ההיסטוריה, והעתיד של האוטובוסים ועוד כמה דברים,&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+&#13;
+&#13;
+נ"ב: מצטער שלקח כל כך הרבה זמן לפרק הזה להגיע, אין לי זמן &#13;
+  &#13;
+&#13;
+------------------------------------------------------&#13;
+&#13;
+רדיו בן...</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק קצר זה של פודקאסט ללא נושא, אני אדבר על ההיסטוריה, והעתיד של האוטובוסים ועוד כמה דברים,<br />האזנה נעימה,<br />שקד<br /><br /><br />נ"ב: מצטער שלקח כל כך הרבה זמן לפרק הזה להגיע, אין לי זמן <br />  <br /><br />------------------------------------------------------<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br />הלוגו נוצר בבלנדר - <a href="https://blender.org/" rel="noopener">https://blender.org/</a><br /><br />------------------------------------------------------<br />  <br />רשות למוזיקה<br />----<br />CC BY 4.0: <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a> <br />The Diverse Free<br /><br />המוזיקה<br />-----  <br />Luis Humanoide - A Ride in an Automobile == <a href="https://youtu.be/xejIrCkkAks" rel="noopener">https://youtu.be/xejIrCkkAks</a> <br />Scott Joplin - The Entertainer(1902) == <a href="https://youtu.be/fPmruHc4S9Q" rel="noopener">https://youtu.be/fPmruHc4S9Q</a><br />Vindsvept - The Fall == <a href="https://youtu.be/7qTjny1qoXs" rel="noopener">https://youtu.be/7qTjny1qoXs</a><br />BrothaD - No Where == <a href="https://prosearch.tribeofnoise.com/artists/show/44327/23835" rel="noopener">https://prosearch.tribeofnoise.com/artists/show/44327/23835</a><br />Vindsvept - Across the Plains == <a href="https://youtu.be/ZDokgvuuS7E" rel="noopener">https://youtu.be/ZDokgvuuS7E</a><br />SilentCrafter - Dream == <a href="https://youtu.be/hnYDJ7wWWB4" rel="noopener">https://youtu.be/hnYDJ7wWWB4</a><br />  <br />-----------------------------------------<br />  <br />נוצר על ידי שקד<br />כל הזכויות שמורות לרדיו בן צבי]]>
+            </itunes:summary>
+            <itunes:duration>361</itunes:duration>
+            <itunes:keywords>אוטובוסים,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep2.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!-- Episode 1 -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <item>
+            <title>הבעיה עם אור</title>
+            <link>https://podcasts.shakedkod.tech/PWAS/Ep1</link>
+            <description>
+                <![CDATA[בפרק זה של פודקאסט ללא נושא אני אדבר על זיהום אור, ולמה כל כך הרבה אור זה רע לנו<br />ועל לווייתנאים גם כן.<br />האזנה נעימה,<br />שקד<br />_____________________________________________________________________<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br /> ---={תודות וכתוביות}=---<br />הלוגו נוצר בבלנדר<br /><br />---={מוזיקה}=---                           <br />Vindsvept - Fimbulwinter, winter following winter<br />Vindsvept - Across the Plains<br />Vindsvept - Quest's End<br />Vindsvept - RAGNARÖK, Naglfar, ship of the dead<br />Vindsvept - Moonless Night<br />Vindsvept - Crystal Forest<br />Vindsvept - Hearthfire<br />Vindsvept - Woodland Lullaby<br />Vindsvept - The Fall<br />Vindsvept - Sleeper<br />Vindsvept - Clockwork<br />Vindsvept - Journey to the Middle of Nowhere<br />Phaera(The Arcadium) - Rejoice<br />RomanSenykMusic - Wonderland<br />SilentCrafter - Dream]]>
+            </description>
+            <googleplay:description>בפרק זה של פודקאסט ללא נושא אני אדבר על זיהום אור, ולמה כל כך הרבה אור זה רע לנו&#13;
+ועל לווייתנאים גם כן.&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+_____________________________________________________________________&#13;
+&#13;
+רדיו בן צבי - https://sites.google.com/view/radiobenzvi&#13;
+&#13;
+ ---={תודות וכתוביות}=---&#13;
+הלוגו נוצר בבלנדר&#13;
+&#13;
+---={מוזיקה}=---                           &#13;
+Vindsvept - Fimbulwinter, winter following winter&#13;
+Vindsvept - Across the Plains&#13;
+Vindsvept - Quest's End&#13;
+Vindsvept - RAGNARÖK, Naglfar, ship of the dead&#13;
+Vindsvept - Moonless Night&#13;
+Vindsvept - Crystal Forest&#13;
+Vindsvept - Hearthfire&#13;
+Vindsvept - Woodland Lullaby&#13;
+Vindsvept - The Fall&#13;
+Vindsvept - Sleeper&#13;
+Vindsvept - Clockwork&#13;
+Vindsvept - Journey to the Middle of Nowhere&#13;
+Phaera(The Arcadium) - Rejoice&#13;
+RomanSenykMusic - Wonderland&#13;
+SilentCrafter - Dream</googleplay:description>
+            <pubDate>Sun, 10 Oct 2021 11:45:00 +0000</pubDate>
+            <enclosure 
+                url="https://github.com/Shakedkod/Podcasts.ShakedKod.tech/raw/gh-pages/podcasts/PWAS/assets/audio/Ep1.mp3" 
+                length="15984922" 
+                type="audio/mp3"
+            />
+            <itunes:author>ShakedKod</itunes:author>
+            <itunes:subtitle>בפרק זה של פודקאסט ללא נושא אני אדבר על זיהום אור, ולמה כל כך הרבה אור זה רע לנו&#13;
+ועל לווייתנאים גם כן.&#13;
+האזנה נעימה,&#13;
+שקד&#13;
+_____________________________________________________________________&#13;
+&#13;
+רדיו בן צבי -...</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[בפרק זה של פודקאסט ללא נושא אני אדבר על זיהום אור, ולמה כל כך הרבה אור זה רע לנו<br />ועל לווייתנאים גם כן.<br />האזנה נעימה,<br />שקד<br />_____________________________________________________________________<br /><br />רדיו בן צבי - <a href="https://sites.google.com/view/radiobenzvi" rel="noopener">https://sites.google.com/view/radiobenzvi</a><br /><br /> ---={תודות וכתוביות}=---<br />הלוגו נוצר בבלנדר<br /><br />---={מוזיקה}=---                           <br />Vindsvept - Fimbulwinter, winter following winter<br />Vindsvept - Across the Plains<br />Vindsvept - Quest's End<br />Vindsvept - RAGNARÖK, Naglfar, ship of the dead<br />Vindsvept - Moonless Night<br />Vindsvept - Crystal Forest<br />Vindsvept - Hearthfire<br />Vindsvept - Woodland Lullaby<br />Vindsvept - The Fall<br />Vindsvept - Sleeper<br />Vindsvept - Clockwork<br />Vindsvept - Journey to the Middle of Nowhere<br />Phaera(The Arcadium) - Rejoice<br />RomanSenykMusic - Wonderland<br />SilentCrafter - Dream]]>
+            </itunes:summary>
+            <itunes:duration>1000</itunes:duration>
+            <itunes:keywords>אור,בעיות,סיפורים,פודקאסטללאנושא</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="http://podcasts.shakedkod.tech/podcasts/PWAS/assets/images/Ep1.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--  The End  -->
+        <!--    //     -->
+        <!--    //     -->
+        <!--    //     -->
+    </channel>
+</rss>

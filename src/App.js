@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 
-import { Home } from "./containers";
+import { ErrorPage, Home } from "./containers";
 
 import "./App.scss";
 
@@ -13,6 +13,8 @@ const App = () => {
             <Route path="/ATWAS/:id" element={<ATWASEp />} />
             <Route path="/PWAS" element={<PWAS />} />
             <Route path="/PWAS/:id" element={<PWASEp />} />*/}
+            {/* 404 Page */}
+            <Route path="*" element={<ErrorPage/>} />
         </Routes>
     );
 };

@@ -12,3 +12,13 @@ body
 {
     display: none;
 }
+
+@font-face {
+    font-family: "ozard";
+    src: url(../public/ozard.otf);
+}
+
+.font-ozard
+{
+    font-family: "ozard";
+}

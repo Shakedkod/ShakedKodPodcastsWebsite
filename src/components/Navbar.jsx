@@ -28,7 +28,7 @@ const Navbar = () => {
                         <div/>
                         <a 
                             href={item.path}
-                            className="text-white hover:text-yellow-500"
+                            className="text-white hover:text-secColor"
                         >{item.name}</a>
                     </li>
                 ))}
@@ -55,7 +55,7 @@ const Navbar = () => {
                                     <a 
                                         href={item.path}
                                         onClick={() => setToggle(false)}
-                                        className="text-white hover:text-yellow-500"
+                                        className="text-white hover:text-secColor"
                                     >
                                         {item.name}
                                     </a>

@@ -42,7 +42,7 @@ module.exports = {
       textColor: {
         lightGray: '#F1EFEE',
         primary: '#FAFAFA',
-        secColor: '#efefef',
+        secColor: '#EAB308',
         navColor: '#BEBEBE',
       },
       backgroundColor: {
@@ -84,7 +84,7 @@ module.exports = {
     cursor: {
       'zoom-in': 'zoom-in',
       pointer: 'pointer',
-    },
+    }
   },
   variants: {
     // backgroundColor: ['active'],
