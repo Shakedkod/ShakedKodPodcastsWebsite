@@ -1,3 +1,30 @@
+export const NavItemsLeft = [
+    {
+        title: "About",
+        path: "/about",
+    },
+    {
+        title: "Programsㅤ",
+        path: "/programer",
+    },
+];
+
+export const NavItemsRight = [
+    {
+        title: "‎ Podcasts",
+        path: "/#podcasts",
+    },
+    {
+        title: "Contact",
+        path: "/contact",
+    },
+];
+
+export const MyPodcastId = [
+    "PWAS",
+    "ATWAS"
+]; 
+
 export type RSSDataProps = {
     title: string;
     description: string;

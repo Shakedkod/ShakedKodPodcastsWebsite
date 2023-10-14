@@ -1,8 +1,16 @@
-import Image from "next/image";
+import CopyrightingAndInfo from "@/components/CopyrightingAndInfo";
+import Header from "@/components/Header";
+import MyPodcasts from "@/components/MyPodcasts";
+import PodcastsImOn from "@/components/PodcastsImOn";
 
 export default function Home()
 {
     return (
-        <div className="">Home</div>
+        <>
+            <Header/>
+            <MyPodcasts/>
+            <CopyrightingAndInfo/>
+            <PodcastsImOn/>
+        </>
     );
 }
