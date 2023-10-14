@@ -96,7 +96,7 @@ const Navbar = () => {
                         onClick={() => setToggle(false)}
                     />
                     <ul className="flexBetween flex-col gap-5 regular-32">
-                        {[].concat(NavItemsLeft, NavItemsRight).map((link, index) => {
+                        {[...NavItemsLeft, ...NavItemsRight].map((link, index) => {
                             const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
                             
                             return (
