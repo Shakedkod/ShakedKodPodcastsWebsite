@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <section className="relative -top-10 left-0 z-0">
             <Image
-                src="/assets/cover.png"
+                src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/cover.png?updatedAt=1697326254992"
                 alt="ShakedKod's Podcasts"
                 width={200}
                 height={200}

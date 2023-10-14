@@ -40,7 +40,7 @@ const Navbar = () => {
                     })}
                     <Link href="/">
                         <Image
-                            src="/assets/logo.png"
+                            src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
                             alt="ShakedKod's logo"
                             width={50}
                             height={50}
@@ -111,7 +111,7 @@ const Navbar = () => {
                                     }}
                                     className="inline-block mr-5"
                                 >
-                                    <Link href={link.path} className="regular-20">
+                                    <Link href={link.path} onClick={() => setToggle(false)} className="regular-20">
                                         {link.title}
                                     </Link>
                                 </motion.li>
