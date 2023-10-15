@@ -6,19 +6,19 @@ import Link from "next/link";
 const MyPodcasts = () => {
     return (
         <section id="podcasts" className="padding-container max-container flexCenter flex-col">
-            <div className="my-5 text-yellow-50 font-philo bold-64">
+            <h2 className="my-5 text-yellow-50 font-philo bold-64 capitalize text-center">
                 My Podcasts
-            </div>
-            <ul className="flexCenter flex-row gap-16">
+            </h2>
+            <ul className="flexCenter flex-col md:flex-row gap-16 w-[95%]">
                 {MyPodcastId.map((podcastId) => (
-                    <li key={podcastId} className="rounded-3xl bg-[#10586163] pt-8 px-5 pb-3 text-center max-w-[18rem]">
+                    <li key={podcastId} className="rounded-3xl bg-[#10586163] w-[300px] h-[400px] p-2 text-center">
                         <Link href={`/podcast/${podcastId}`} className="flexCenter flex-col">
                             <Image
                                 src={PODCASTS[podcastId].image}
                                 width={200}
                                 height={200}
                                 alt={PODCASTS[podcastId].title}
-                                className="rounded-1xl mb-4 w-[85%] hover:w-full transition-[width] duration-500 ease-in-out"
+                                className="rounded-1xl mb-4 mt-2 w-[85%] md:hover:w-full transition-[width] duration-500 ease-in-out"
                             />
                             <div className="py-2">
                                 <div className="text-yellow-50 bold-32">

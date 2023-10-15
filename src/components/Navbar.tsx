@@ -15,7 +15,9 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="padding-container relative top-0 z-40 py-5 hidden lg:flex items-center justify-center flex-row bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-60% 4xl:py-14">
+            <nav 
+                className="padding-container relative top-0 z-40 py-5 4xl:py-14 hidden lg:flex items-center justify-center flex-row bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-60%"
+            >
                 <ul className="flexBetween gap-5 4xl:gap-12">
                     {NavItemsLeft.map((link, index) => {  
                         const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
@@ -39,13 +41,24 @@ const Navbar = () => {
                         )
                     })}
                     <Link href="/">
-                        <Image
-                            src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
-                            alt="ShakedKod's logo"
-                            width={50}
-                            height={50}
-                            className="cursor-pointer mx-7 4xl:w-[12rem]"
-                        />
+                        <motion.div
+                            initial={{ scale: 1 }}
+                            whileHover={{
+                                scale: 1.2,
+                                transition: {
+                                    duration: 0.2
+                                }
+                            }}
+                            className="w-[50px] h-[50px] 4xl:w-[12rem] 4xl:h-[12rem] relative"
+                        >
+                            <Image
+                                src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
+                                alt="ShakedKod's logo"
+                                width={50}
+                                height={50}
+                                className="absolute top-0 left-0 cursor-pointer"
+                            />
+                        </motion.div>
                     </Link>
                     {NavItemsRight.map((link, index) => {  
                         const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;

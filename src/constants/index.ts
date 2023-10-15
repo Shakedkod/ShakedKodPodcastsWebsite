@@ -1,7 +1,82 @@
+export const FooterLinks = [
+    {
+        name: "Podcasts",
+        children: [
+            {
+                label: "My Podcasts",
+                icon: null,
+                path: "/#podcasts",
+            },
+            {
+                label: "Podcasts in collaboration with me",
+                icon: null,
+                path: "/#podcasts-colab",
+            }
+        ]
+    },
+    {
+        name: "Info",
+        children: [
+            {
+                label: "About",
+                icon: null,
+                path: "/#info",
+            },
+            {
+                label: "Contact",
+                icon: null,
+                path: "/contact",
+            },
+            {
+                label: "Radio Ben Zvi",
+                icon: null,
+                path: "https://linktr.ee/Radio.benzvi"
+            },
+            {
+                label: "Radio Ben Zvi Youtube",
+                icon: null,
+                path: "https://www.youtube.com/channel/UC201HUhnv757FkBdZOJZfIg"
+            }
+        ]
+    }
+];
+
+export const FOOTER_CONTACT_INFO = {
+    title: 'Contact Me',
+    links: [
+        { label: 'By Email', value: 'shakedkod.yt@gmail.com', link: "mailto:shakedkod.yt@gmail.com" },
+        { label: "By Instagram", value: "@shakedkod", link: "https://www.instagram.com/shakedkod" },
+        { label: "By Linkedin", value: "@shakedkod", link: "https://www.linkedin.com/in/shakedkod" }
+    ],
+};
+
+export const SOCIALS = [
+    {
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/instagram.svg?updatedAt=1697402415656",
+        path: "https://www.instagram.com/shakedkod",
+    },
+    {
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/github.svg?updatedAt=1697402415904",
+        path: "https://github.com/shakedkod"
+    },
+    {
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/linkedin.svg?updatedAt=1697402415646",
+        path: "https://www.linkedin.com/in/shakedkod"
+    },
+    {
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/youtube.svg?updatedAt=1697402415895",
+        path: "https://www.youtube.com/@ShakedKod"
+    },
+    {
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/twitter.svg?updatedAt=1697402415774",
+        path: "https://twitter.com/m_ShakedKod"
+    }
+];
+
 export const NavItemsLeft = [
     {
         title: "About",
-        path: "/about",
+        path: "/#info",
     },
     {
         title: "Programsㅤ",
@@ -24,6 +99,10 @@ export const MyPodcastId = [
     "PWAS",
     "ATWAS"
 ]; 
+
+export const PodcastsImOnId = [
+    "ST"
+];
 
 export type RSSDataProps = {
     title: string;

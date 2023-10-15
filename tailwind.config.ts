@@ -33,8 +33,9 @@ module.exports = {
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
+        pattern: "url(https://ik.imagekit.io/shakedkod/shakedkod-podcasts/pattern.png?updatedAt=1697378251564)",
         'pattern-2': "url('/pattern-bg.png')",
+        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
       },
       screens: {
         xs: '400px',
@@ -50,6 +51,7 @@ module.exports = {
     },
     fontFamily: {
       philo: ['Philosopher'],
+      assist: ['Assistant'],
     }
   },
   plugins: [],
