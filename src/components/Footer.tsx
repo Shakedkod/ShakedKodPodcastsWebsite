@@ -57,9 +57,9 @@ const Footer = () => {
                                             <Image
                                                 src={social.icon}
                                                 alt="logo"
-                                                width={24}
-                                                height={24}
-                                                className="hover:w-[28px] hover:h-[28px] transition-all duration-300 ease-in-out"
+                                                width={28}
+                                                height={28}
+                                                className="w-[24px] h-[24px] hover:w-[28px] hover:h-[28px] transition-all duration-300 ease-in-out"
                                             />
                                         </Link>
                                     ))}

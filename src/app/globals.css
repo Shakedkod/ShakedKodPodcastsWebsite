@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Philosopher:wght@700&display=swap');
 
 @tailwind base;
@@ -58,6 +57,10 @@ body {
   }
 
   /* FONTS */
+  .regular-100 {
+    @apply text-[100px] font-[400] leading-[120%];
+  }
+
   .regular-64 {
     @apply text-[64px] font-[400] leading-[120%];
   }

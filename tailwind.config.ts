@@ -52,6 +52,7 @@ module.exports = {
     fontFamily: {
       philo: ['Philosopher'],
       assist: ['Assistant'],
+      archay: ["var(--font-archay)"],
     }
   },
   plugins: [],

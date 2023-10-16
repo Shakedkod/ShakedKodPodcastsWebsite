@@ -86,7 +86,7 @@ export const NavItemsLeft = [
 
 export const NavItemsRight = [
     {
-        title: "‎ Podcasts",
+        title: "ㅤPodcasts",
         path: "/#podcasts",
     },
     {
@@ -109,8 +109,13 @@ export type RSSDataProps = {
     description: string;
     feed_url: string;
     site_url: string;
+    links: {
+        label: string;
+        url: string;
+    }[];
     language: string;
     image: string;
+    cover: string;
     copyright: string;
     categories: string[];
     editor: string;
@@ -150,8 +155,39 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
         description: "בפודקאסט זה, כל פרק על נושא אחר ומעניין",
         feed_url: "https://podcasts.shakedkod.tech/podcast/PWAS/feed",
         site_url: "https://podcasts.shakedkod.tech/podcast/PWAS",
+        links: [
+            {
+                label: "spotify",
+                url: "https://open.spotify.com/show/7pCqqvTeWgtT7NXvoXDMc0"
+            },
+            {
+                label: "apple",
+                url: "https://podcasts.apple.com/us/podcast/פודקאסט-ללא-נושא/id1711938901"
+            },
+            {
+                label: "youtube",
+                url: "https://music.youtube.com/playlist?list=PLGUNdKopvOVLBpEwYinh6kI_6DVKtHo-m&si=Pb40rMrOHhRZ1C0-"
+            },
+            {
+                label: "pocket",
+                url: "https://pca.st/zmxucvxi"
+            },
+            {
+                label: "google",
+                url: "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0cy5zaGFrZWRrb2QudGVjaC9wb2RjYXN0L1BXQVMvZmVlZA?sa=X&ved=2ahUKEwjg9uGzi_qBAxWuXaQEHYHeB3kQ9sEGegQIARAE"
+            },
+            {
+                label: "rss",
+                url: "https://podcasts.shakedkod.tech/podcast/PWAS/feed"
+            },
+            {
+                label: "android",
+                url: "https://subscribeonandroid.com/podcasts.shakedkod.tech/podcast/PWAS/feed"
+            }
+        ],
         language: "he",
         image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/PWAS/logo.png",
+        cover: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/cover-pwas.png?updatedAt=1697480916563",
         copyright: "©ShakedKod 2022",
         categories: [
             "History",
@@ -170,7 +206,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 8
             {
                 title: "על שודדים ויהודים",
-                description: 'בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.\nהאזנה נעימה,\n	שקד!\n\n_____\n<h2>-=קרדיטים=-</h2>\nכתיבה & קריינות & עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a>\nעריכה לשונית - דורון ורוית קודמן\nעזרה בעריכה ותמיכה מורלית - דורון חיימפור\nעזרה נוספת - <a href="https://www.instagram.com/falconboop/" target="_blank">פאלקון</a>\n<br/>\n<a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a>\n\n_____________________________\n<h2>-=מוזיקה=-</h2><br/>\n<h3>Licensees:</h3>\nthe licensees that are used for obtaining the tracks below(see the num of * besides each track):\n	* Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/\n	** Royalty free for non-commercial use as a background music\n	*** The Arcadium\n<br/>\n<h3>Artists:</h3>\n* Alexander Nakarda:\n	- <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a>\n	- <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a>\n	- <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a>\n	- <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a>\n	- <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a>\n* Denny Schneidemesser:\n	- <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a>\n	- <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a>\n	- <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a>\n	- <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a>\n* Fox Sailor:\n	- <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a>\n	- <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a>\n	- <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a>\n	- <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a>\n* Vindsvept:\n	- <a href="https://vindsvept.se" >Website - https://vindsvept.se</a>\n	- <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a>\n	- <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a>\n	- <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a>\n* Luis Humanoide:\n	- <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a>\n	- <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a>\n	- <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a>\n	- <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a>\n	- <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a>\n* TheFatRat:\n	- <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a>\n	- <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a>\n	- <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a>\n	- <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a>\n\n<h3>Tracks:</h3>\n    Alexander Nakarada - Percussive Intro *\n    Alexander Nakarada - Wanderer *\n    Denny Schneidemesser - Entering the Stronghold **\n    Fox Sailor - Treasure Hunt **\n    Denny Schneidemesser - Tiny Nomad **\n    Vindsvept - Naglfar, Ship of the Dead *\n    Luis Humanoide - The March of the Crazy Aliens **\n    TheFatRat & Cecilia Gault - Our Song (Instrumental) ***\n    Alexander Nakarada - Spacebuckler *\n    Vindsvept - Flying High *\n    Alexander Nakarada - Land of Pirates *\n    Vindsvept - The Long Awaited Return *\n    Luis Humanoide - Legends of the Highway **\n    Denney Schneidemesser - Thunderdome **\n    Alexander Nakarada - Bonfire *\n    Alexander Nakarada - Emotional Intro *\n    Alexander Nakarada - Nightmare *\n    Fox Sailor - Heart of Adventure **\n    Alexander Nakarada - The Great Battle *\n    Alexander Nakarada - The World\'s Most Epic Sea Shanty *\n_____________________________\n\n<h2>-=חלקי הפרק=-</h2>\n00:00 - פתיחה\n01:01 - גירוש ספרד\n02:42 - ברברוסה\n03:55 - סינאן היהודי\n06:48 - הליגה והאסטרטגיה\n08:00 - סמואל פאלאצ\'י\n09:10 - בחזרה לספרד\n10:59 - קשרים פה, קשרים שם\n13:28 - האינקוויזיציה והעולם החדש\n15:32 - משה כהן הנריקס\n16:22 - המלחמה בין ספרד להולנד\n17:39 - ברזיל ההולנדית\n18:46 - הסוף\n\n_____________________________\n\n©ShakedKod 2023',
+                description: 'בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.<br/>האזנה נעימה,<br/>	שקד!<br/><br/>_____<br/><h2>-=קרדיטים=-</h2><br/>כתיבה & קריינות & עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a><br/>עריכה לשונית - דורון ורוית קודמן<br/>עזרה בעריכה ותמיכה מורלית - דורון חיימפור<br/>עזרה נוספת - <a href="https://www.instagram.com/falconboop/" target="_blank">פאלקון</a><br/><br/><br/><a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a><br/><br/>_____________________________<br/><h2>-=מוזיקה=-</h2><br/><br/><h3>Licensees:</h3><br/>the licensees that are used for obtaining the tracks below(see the num of * besides each track):<br/>	* Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/<br/>	** Royalty free for non-commercial use as a background music<br/>	*** The Arcadium<br/><br/><br/><h3>Artists:</h3><br/>* Alexander Nakarda:<br/>	- <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a><br/>	- <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a><br/>	- <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a><br/>	- <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a><br/>	- <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a><br/>* Denny Schneidemesser:<br/>	- <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a><br/>	- <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a><br/>	- <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a><br/>	- <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a><br/>* Fox Sailor:<br/>	- <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a><br/>	- <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a><br/>	- <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a><br/>	- <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a><br/>* Vindsvept:<br/>	- <a href="https://vindsvept.se" >Website - https://vindsvept.se</a><br/>	- <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a><br/>	- <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a><br/>	- <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a><br/>* Luis Humanoide:<br/>	- <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a><br/>	- <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a><br/>	- <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a><br/>	- <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a><br/>	- <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a><br/>* TheFatRat:<br/>	- <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a><br/>	- <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a><br/>	- <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a><br/>	- <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a><br/><br/><h3>Tracks:</h3><br/>    Alexander Nakarada - Percussive Intro *<br/>    Alexander Nakarada - Wanderer *<br/>    Denny Schneidemesser - Entering the Stronghold **<br/>    Fox Sailor - Treasure Hunt **<br/>    Denny Schneidemesser - Tiny Nomad **<br/>    Vindsvept - Naglfar, Ship of the Dead *<br/>    Luis Humanoide - The March of the Crazy Aliens **<br/>    TheFatRat & Cecilia Gault - Our Song (Instrumental) ***<br/>    Alexander Nakarada - Spacebuckler *<br/>    Vindsvept - Flying High *<br/>    Alexander Nakarada - Land of Pirates *<br/>    Vindsvept - The Long Awaited Return *<br/>    Luis Humanoide - Legends of the Highway **<br/>    Denney Schneidemesser - Thunderdome **<br/>    Alexander Nakarada - Bonfire *<br/>    Alexander Nakarada - Emotional Intro *<br/>    Alexander Nakarada - Nightmare *<br/>    Fox Sailor - Heart of Adventure **<br/>    Alexander Nakarada - The Great Battle *<br/>    Alexander Nakarada - The World\'s Most Epic Sea Shanty *<br/>_____________________________<br/><br/><h2>-=חלקי הפרק=-</h2><br/>00:00 - פתיחה<br/>01:01 - גירוש ספרד<br/>02:42 - ברברוסה<br/>03:55 - סינאן היהודי<br/>06:48 - הליגה והאסטרטגיה<br/>08:00 - סמואל פאלאצ\'י<br/>09:10 - בחזרה לספרד<br/>10:59 - קשרים פה, קשרים שם<br/>13:28 - האינקוויזיציה והעולם החדש<br/>15:32 - משה כהן הנריקס<br/>16:22 - המלחמה בין ספרד להולנד<br/>17:39 - ברזיל ההולנדית<br/>18:46 - הסוף<br/><br/>_____________________________<br/><br/>©ShakedKod 2023',
                 google_description: 'בפרק זה אנחנו נתחקה אחר הפיראטים היהודיים וסיפוריהם המרתקים, בנוסף נדבר על ספרד, מרוקו וכמה אנשים מרתקים.&#13;האזנה נעימה,&#13;    שקד!&#13;&#13;_____________________________________________________________&#13;## -=קרדיטים=-&#13;כתיבה, קריינות, עריכה - <a href="https://shakedkod.tech" target="_blank">שקד קוד</a>&#13;עריכה לשונית - דורון ורוית קודמן&#13;עזרה בעריכה ותמיכה מורלית - דורון חיימפור&#13;עזרה נוספת - <a href="https://www.instagram.com/falconboop/" target="_blank">פאלקון</a>&#13;&#13;<a href="https://linktr.ee/Radio.benzvi" target="_blank">רדיו בן צבי - https://linktr.ee/Radio.benzvi</a>&#13;&#13;_____________________________________________________________&#13;-=מוזיקה=-&#13;Licensees:&#13;the licensees that are used for obtaining the tracks below(see the num of * besides each track):&#13;    * Licensed under Creative Commons BY Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0/ &#13;    ** Royalty free for non-commercial use as a background music&#13;    *** The Arcadium&#13;&#13;Artists:&#13;* Alexander Nakarda:&#13;    - <a href="https://www.serpentsoundstudios.com" >Website - https://www.serpentsoundstudios.com</a>&#13;    - <a href="https://www.youtube.com/@anakarada" >Youtube - https://www.youtube.com/@anakarada</a>&#13;    - <a href="https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa" >Spotify - https://open.spotify.com/artist/43YoiP9iEsuqomUh9IdxXa</a>&#13;    - <a href="https://alexandernakarada.bandcamp.com" >BandCamp - https://alexandernakarada.bandcamp.com</a>&#13;    - <a href="https://twitter.com/thenakarada" >Twitter - https://twitter.com/thenakarada</a>&#13;* Denny Schneidemesser:&#13;    - <a href="http://www.dennyschneidemesser.com" >Website - http://www.dennyschneidemesser.com</a>&#13;    - <a href="https://www.youtube.com/@DennySchneidemesser" >Youtube - https://www.youtube.com/@DennySchneidemesser</a>&#13;    - <a href="https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s" >Spotify - https://open.spotify.com/artist/0CBDTLHnL2GQ93c8kdYY0s</a>&#13;    - <a href="https://twitter.com/Filmcomposer87" >Twitter - https://twitter.com/Filmcomposer87</a>&#13;* Fox Sailor:&#13;    - <a href="https://www.youtube.com/@FoxSailor" >Youtube - https://www.youtube.com/@FoxSailor</a>&#13;    - <a href="https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX" >Spotify - https://open.spotify.com/artist/6kolefro6D38Kv6Wa7dgRX</a>&#13;    - <a href="https://foxsailor.bandcamp.com" >BandCamp - https://foxsailor.bandcamp.com/</a>&#13;    - <a href="https://twitter.com/Fox_Sailor" >Twitter - https://twitter.com/Fox_Sailor</a>&#13;* Vindsvept:&#13;    - <a href="https://vindsvept.se" >Website - https://vindsvept.se</a>&#13;    - <a href="https://www.youtube.com/@Vindsvept" >Youtube - https://www.youtube.com/@Vindsvept</a>&#13;    - <a href="https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J" >Spotify - https://open.spotify.com/artist/2FVQ3P7dSKttngc7FaE83J</a>&#13;    - <a href="https://vindsvept.bandcamp.com" >BandCamp - https://vindsvept.bandcamp.com</a>&#13;* Luis Humanoide:&#13;    - <a href="https://www.youtube.com/@LuisHumanoide" >Youtube - https://www.youtube.com/@LuisHumanoide</a>&#13;    - <a href="https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF" >Spotify - https://open.spotify.com/artist/5a62vInNhpp2DYAbvzytdF</a>&#13;    - <a href="https://music.apple.com/es/artist/luis-humanoide/1494771580" >Apple Music - https://music.apple.com/es/artist/luis-humanoide/1494771580</a>&#13;    - <a href="https://luishumanoide.bandcamp.com" >BandCamp - https://luishumanoide.bandcamp.com</a>&#13;    - <a href="https://twitter.com/LuisHumanoide" >Twitter - https://twitter.com/LuisHumanoide</a>&#13;* TheFatRat:&#13;    - <a href="https://www.youtube.com/@TheFatRat" >Youtube - https://www.youtube.com/@TheFatRat</a>&#13;    - <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" >Spotify - https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4</a>&#13;    - <a href="https://music.apple.com/us/artist/thefatrat/395664545" >Apple Music - https://music.apple.com/us/artist/thefatrat/395664545</a>&#13;    - <a href="https://twitter.com/ThisIsTheFatRat" >Twitter - https://twitter.com/ThisIsTheFatRat</a>&#13;&#13;Tracks:&#13;    Alexander Nakarada - Percussive Intro *&#13;    Alexander Nakarada - Wanderer *&#13;    Denny Schneidemesser - Entering the Stronghold **&#13;    Fox Sailor - Treasure Hunt **&#13;    Denny Schneidemesser - Tiny Nomad **&#13;    Vindsvept - Naglfar, Ship of the Dead *&#13;    Luis Humanoide - The March of the Crazy Aliens **&#13;    TheFatRat and Cecilia Gault - Our Song (Instrumental) ***&#13;    Alexander Nakarada - Spacebuckler *&#13;    Vindsvept - Flying High *&#13;    Alexander Nakarada - Land of Pirates *&#13;    Vindsvept - The Long Awaited Return *&#13;    Luis Humanoide - Legends of the Highway **&#13;    Denney Schneidemesser - Thunderdome **&#13;    Alexander Nakarada - Bonfire *&#13;    Alexander Nakarada - Emotional Intro *&#13;    Alexander Nakarada - Nightmare *&#13;    Fox Sailor - Heart of Adventure **&#13;    Alexander Nakarada - The Great Battle *&#13;    Alexander Nakarada - The World\'s Most Epic Sea Shanty *&#13;&#13;_____________________________________________________________&#13;&#13;-=חלקי הפרק=-&#13;00:00 - פתיחה&#13;01:01 - גירוש ספרד&#13;02:42 - ברברוסה&#13;03:55 - סינאן היהודי&#13;06:48 - הליגה והאסטרטגיה&#13;08:00 - סמואל פאלאצ\'י&#13;09:10 - בחזרה לספרד&#13;10:59 - קשרים פה, קשרים שם&#13;13:28 - האינקוויזיציה והעולם החדש&#13;15:32 - משה כהן הנריקס&#13;16:22 - המלחמה בין ספרד להולנד&#13;17:39 - ברזיל ההולנדית&#13;18:46 - הסוף&#13;&#13;_____________________________________________________________&#13;&#13;©ShakedKod 2023&#13;',
                 url: "https://podcasts.shakedkod.tech/podcast/PWAS/Ep8",
                 categories: [
@@ -366,8 +402,39 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
         description: "על החיים וכל השאר עם כל מיני אנשים משונים, מעניינים, ומוזרים בהנחיית שקד קוד.",
         feed_url: "https://podcasts.shakedkod.tech/podcasts/ATWAS/feed",
         site_url: "https://podcasts.shakedkod.tech/podcasts/ATWAS",
+        links: [
+            {
+                label: "spotify",
+                url: "https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8"
+            },
+            {
+                label: "apple",
+                url: "https://podcasts.apple.com/us/podcast/שיחה-ללא-נושא/id1711939096"
+            },
+            {
+                label: "youtube",
+                url: "https://music.youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT&si=38uHAUfso2GA3KUQ"
+            },
+            {
+                label: "pocket",
+                url: "https://pca.st/3w8wkmci"
+            },
+            {
+                label: "google",
+                url: "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0cy5zaGFrZWRrb2QudGVjaC9wb2RjYXN0L0FUV0FTL2ZlZWQ"
+            },
+            {
+                label: "rss",
+                url: "https://podcasts.shakedkod.tech/podcast/ATWAS/feed"
+            },
+            {
+                label: "android",
+                url: "https://subscribeonandroid.com/podcasts.shakedkod.tech/podcast/ATWAS/feed"
+            }
+        ],
         language: "he",
         image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
+        cover: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/cover-atwas.png?updatedAt=1697480867000",
         copyright: "©Shakedkod 2023",
         categories: [
             "Society & Culture",
@@ -386,7 +453,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 9
             {
                 title: "דיון חסר תֶּמָה",
-                description: 'הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.\nסצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.\n                האזנה נעימה!\n<br>\nהציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>\nקישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>\n<br>\n\n<strong>-=חלקי הפרק=-</strong>\n00:00 - פתיח עם גילי\n02:00 - ליטרלי כל שאר הפרק\n29:51 - הסוף\n<br>\n\n<strong>-=קישורים=-</strong>\n<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>\nקישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>\n<br>\n<strong>© ShakedKod 2023</strong>',
+                description: 'הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.<br/>סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.<br/>                האזנה נעימה!<br/><br><br/>הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a><br/>קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a><br/><br><br/><br/><strong>-=חלקי הפרק=-</strong><br/>00:00 - פתיח עם גילי<br/>02:00 - ליטרלי כל שאר הפרק<br/>29:51 - הסוף<br/><br><br/><br/><strong>-=קישורים=-</strong><br/><a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a><br/>קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a><br/><br><br/><strong>© ShakedKod 2023</strong>',
                 google_description: 'הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.&#13;סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.&#13;                האזנה נעימה!&#13;&#13;הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;&#13;<strong>-=חלקי הפרק=-</strong>&#13;00:00 - פתיח עם גילי&#13;02:00 - ליטרלי כל שאר הפרק&#13;29:51 - הסוף&#13;&#13;<strong>-=קישורים=-</strong>&#13;<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;&#13;© ShakedKod 2023&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep9",
                 categories: [
@@ -400,7 +467,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 1867000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.\nסצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.\n                האזנה נעימה!\n',
+                subtitle: 'הפרק התשיעי של שיחה ללא נושא עם שקד, גילי, ליעד, עומר, רוני, ושחר.<br/>סצנות מעניינות בשילוב עם סיפורים נחמדים, בפרק זה של שיחה ללא נושא האזינו לדיון באווירת סלון כזואלית.<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "1867",
                 explicit: "clean",
@@ -410,7 +477,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 8
             {
                 title: "קצת מזה וקצת מזה",
-                description: 'הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.\nכמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?\nשאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!\n                האזנה נעימה!\n<br>\nהציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>\nקישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>\n<br>\n<strong>-=קישורים=-</strong>\n<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>\nקישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>\n<br>\n<strong>© ShakedKod 2023</strong>',
+                description: 'הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.<br/>כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?<br/>שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!<br/>                האזנה נעימה!<br/><br><br/>הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a><br/>קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a><br/><br><br/><strong>-=קישורים=-</strong><br/><a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a><br/>קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a><br/><br><br/><strong>© ShakedKod 2023</strong>',
                 google_description: 'הפרק השביעי של שיחה ללא נושא עם שקד, חדיב, ועמרי.&#13;כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?&#13;שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!&#13;                האזנה נעימה!&#13;&#13;הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;&#13;<strong>-=קישורים=-</strong>&#13;<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;&#13;© ShakedKod 2023&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep8",
                 categories: [
@@ -424,7 +491,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 2598000,
                     type: "audio/mpeg",
                 },
-                subtitle: 'הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.\nכמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?\nשאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!\n                האזנה נעימה!\n',
+                subtitle: 'הפרק השמיני של שיחה ללא נושא עם שקד, חדיב, ועמרי.<br/>כמה חזק הוא אנדרו טייט? האם האתר של בית הספר יעקב כהן הוא חלק מהאילומינטי?<br/>שאלות אלו ועוד יענו בפרק זה של שיחה ללא נושא!<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "2598",
                 explicit: "clean",
@@ -434,7 +501,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 7
             {
                 title: "על הממשלה, גרעינים, ועוד",
-                description: 'הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.\nבפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים\n                האזנה נעימה!\n<br>\nענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a>\nקישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a>\n<br>\nהציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>\nקישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>\n<strong>-=קישורים=-</strong>\n<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>\nקישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>\n<br>\n<strong>-=מוזיקה=-</strong>\n* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)\n<br>\n<strong>© ShakedKod 2022</strong>',
+                description: 'הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.<br/>בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים<br/>                האזנה נעימה!<br/><br><br/>ענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a><br/>קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a><br/><br><br/>הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a><br/>קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a><br/><strong>-=קישורים=-</strong><br/><a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a><br/>קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a><br/><br><br/><strong>-=מוזיקה=-</strong><br/>* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)<br/><br><br/><strong>© ShakedKod 2022</strong>',
                 google_description: 'הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.&#13;בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים&#13;                האזנה נעימה!&#13;&#13;ענו על הטופס - <a href="https://form.jotform.com/shakedkod/ATWAS-7">לחצו פה</a>&#13;קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/ATWAS-7">https://form.jotform.com/shakedkod/ATWAS-7</a>&#13;&#13;הציעו נושאים לפרקים הבאים - <a href="https://form.jotform.com/shakedkod/Subjects">לחצו פה</a>&#13;קישור אלטרנטיבי - <a href="https://form.jotform.com/shakedkod/Subjects">https://form.jotform.com/shakedkod/Subjects</a>&#13;<strong>-=קישורים=-</strong>&#13;<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;קישור אלטרנטיבי - <a href="https://linktr.ee/Radio.BenZvi">https://linktr.ee/Radio.BenZvi</a>&#13;&#13;<strong>-=מוזיקה=-</strong>&#13;* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)&#13;&#13;© ShakedKod 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep7",
                 categories: [
@@ -448,7 +515,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 3357000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.\nבפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים\n                האזנה נעימה!\n',
+                subtitle: 'הפרק השביעי של שיחה ללא נושא עם שקד, יואב, ואלעד.<br/>בפרק זה הם מדברים על הממשלה המיועדת, מלחמות גרעיניות, ועוד נושאים מוזרים ומשונים<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "3357",
                 explicit: "clean",
@@ -458,7 +525,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 6
             {
                 title: "גילי אמרה לי לקרוא לפרק הזה \"שיחת בנות\" - למרות שהוא לא",
-                description: 'הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.\nבפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים\n                האזנה נעימה!\n<br>\n<strong>-=קישורים=-</strong>\n<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>\n<br>\n<strong>-=מוזיקה=-</strong>\n* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)\n<br>\n<strong>© ShakedKod 2022</strong>',
+                description: 'הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.<br/>בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים<br/>                האזנה נעימה!<br/><br><br/><strong>-=קישורים=-</strong><br/><a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a><br/><br><br/><strong>-=מוזיקה=-</strong><br/>* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)<br/><br><br/><strong>© ShakedKod 2022</strong>',
                 google_description: 'הפרק השלישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.&#13;בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים&#13;האזנה נעימה!&#13;&#13;<strong>-=קישורים=-</strong>&#13;<a href="https://linktr.ee/Radio.BenZvi">הפודקאסט בכל האתרים</a>&#13;<strong>-=מוזיקה=-</strong>&#13;* יותם רגב(<a href="https://www.instagram.com/yotam_regev_/">@yotam_regev_</a>)&#13;&#13;© ShakedKod 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep6",
                 categories: [
@@ -472,7 +539,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 3059000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.\nבפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים\n                האזנה נעימה!\n',
+                subtitle: 'הפרק השישי של שיחה ללא נושא עם שקד, גילי, עומר, רוני, ליעד, שחר ואוריאן.<br/>בפרק זה הם מדברים על לימודים, סדרות משונות, ופרקים קודמים<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "3059",
                 explicit: "clean",
@@ -482,7 +549,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 5
             {
                 title: "מה שלא היה נכנס - פרק בונוס",
-                description: 'הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר\n                האזנה נעימה!\n<br>\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\nיוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og\nהפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392\nהפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/\nהפודקאסט באפל מיוזיק - https://podcasts.apple.com/podcast/id1654325732?app=podcast&at=1000lHKX&ct=linktree_http\nitscg=30200&itsct=lt_p&ls=1&mt=2/\nכל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/\n<br>\n<strong>-=מוזיקה=-</strong>\n* Howard Harper-Barnes - We All Need Adventures(The Center)\n<br>\n<strong>© Radio Ben Zvi 2022</strong>',
+                description: 'הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר<br/>                האזנה נעימה!<br/><br><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/>יוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og<br/>הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<br/>הפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/<br/>הפודקאסט באפל מיוזיק - https://podcasts.apple.com/podcast/id1654325732?app=podcast&at=1000lHKX&ct=linktree_http<br/>itscg=30200&itsct=lt_p&ls=1&mt=2/<br/>כל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/<br/><br><br/><strong>-=מוזיקה=-</strong><br/>* Howard Harper-Barnes - We All Need Adventures(The Center)<br/><br><br/><strong>© Radio Ben Zvi 2022</strong>',
                 google_description: ' הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר&#13;האזנה נעימה!&#13;&#13;-=קישורים=-&#13;אתר - https://RadioBenZvi.github.io/&#13;יוטיוב - https://www.youtube.com/channel/UCS-d-xH0hS5D4RPLKBBe5og&#13;הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;הפודקאסט בגוגל - https://podcasts.google.com/feed/aHR0cHM6Ly9zaGFrZWRrb2QuZ2l0aHViLmlvL0FUV0FTX1BvZGNhc3QvZmVlZC5yc3M/&#13;כל הפרקים ביוטיוב - https://youtube.com/playlist?list=PLGUNdKopvOVJhSI29vR9_IA_iscAWBelT/&#13;&#13;-=מוזיקה=-&#13;* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;&#13;© Radio Ben Zvi 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep5",
                 categories: [
@@ -496,7 +563,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 1260000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר\n                האזנה נעימה!\n',
+                subtitle: 'הפרק הזה הינו כל מה שלא נכנס לפרקים הרגילים עם הודעה מיוחדת לרוני שחר<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "1260",
                 explicit: "clean",
@@ -506,7 +573,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 4
             {
                 title: "לאן הגענו?",
-                description: 'הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.\nבפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים\n                האזנה נעימה!\n<br>\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\nיוטיוב - \nהפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392\nהפודקאסט באפל מיוזיק - \nכל הפרקים ביוטיוב - \n<br>\n<strong>-=מוזיקה=-</strong>\n* TheFatRat - Xenogenesis\n<br>\n<strong>© Radio Ben Zvi 2022</strong>',
+                description: 'הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.<br/>בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים<br/>                האזנה נעימה!<br/><br><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/>יוטיוב - <br/>הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<br/>הפודקאסט באפל מיוזיק - <br/>כל הפרקים ביוטיוב - <br/><br><br/><strong>-=מוזיקה=-</strong><br/>* TheFatRat - Xenogenesis<br/><br><br/><strong>© Radio Ben Zvi 2022</strong>',
                 google_description: 'הפרק השלישי של שיחה ללא נושא עם שקד,רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.&#13;בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים&#13;האזנה נעימה!&#13;&#13;-=קישורים=-&#13;אתר - https://RadioBenZvi.github.io/&#13;יוטיוב - &#13;הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;הפודקאסט באפל מיוזיק - &#13;כל הפרקים ביוטיוב - &#13;&#13;-=מוזיקה=-&#13;* TheFatRat - Xenogenesis&#13;&#13;© Radio Ben Zvi 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep4",
                 categories: [
@@ -520,7 +587,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 2343000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.\nבפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים\n                האזנה נעימה!\n',
+                subtitle: 'הפרק הרביעי של שיחה ללא נושא עם שקד, רוני, ליעד, שירה, רוטמן, גלעד וגם כפי שידוע לי ישו משום מה.<br/>בפרק זה הם מדברים על פוליטיקה, נועה קירל, ומלא דברים רנדומליים אחרים<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "2343",
                 explicit: "clean",
@@ -530,7 +597,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 3
             {
                 title: "מעולמות שונים",
-                description: 'הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד ואוריאן.\nבפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד\n                האזנה נעימה!\n<br>\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\nיוטיוב - \nהפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392\nהפודקאסט באפל מיוזיק - \nכל הפרקים ביוטיוב - \n<br>\n<strong>-=מוזיקה=-</strong>\n* Howard Harper-Barnes - We All Need Adventures(The Center)\n<br>\n<strong>© Radio Ben Zvi 2022</strong>',
+                description: 'הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד ואוריאן.<br/>בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד<br/>                האזנה נעימה!<br/><br><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/>יוטיוב - <br/>הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<br/>הפודקאסט באפל מיוזיק - <br/>כל הפרקים ביוטיוב - <br/><br><br/><strong>-=מוזיקה=-</strong><br/>* Howard Harper-Barnes - We All Need Adventures(The Center)<br/><br><br/><strong>© Radio Ben Zvi 2022</strong>',
                 google_description: 'הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד, ואוריאן&#13;בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד&#13;האזנה נעימה!&#13;&#13;-=קישורים=-&#13;אתר - https://RadioBenZvi.github.io/&#13;יוטיוב - &#13;הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;הפודקאסט באפל מיוזיק - &#13;כל הפרקים ביוטיוב - &#13;&#13;-=מוזיקה=-&#13;* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;&#13;© Radio Ben Zvi 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep3",
                 categories: [
@@ -544,7 +611,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 2750000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד ואוריאן.\nבפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד\n                האזנה נעימה!\n',
+                subtitle: 'הפרק השלישי של שיחה ללא נושא עם שקד, טל, אלון, יואב, ליעד ואוריאן.<br/>בפרק זה הם מדברים על שירים, דברים רנדומליים, לימודים, קולה ועוד<br/>                האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "2750",
                 explicit: "clean",
@@ -554,7 +621,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 2
             {
                 title: "גרמנית, ג'אווה ועוד שירים",
-                description: 'הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.\nבפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד\nהאזנה נעימה!\n<br>\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\nיוטיוב - \nהפודקאסט בספוטיפי - <a herf="https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392">https://open\nspotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<a/>\nהפודקאסט באפל מיוזיק - \nכל הפרקים ביוטיוב - \n<br>\n<strong>-=מוזיקה=-</strong>\n* Howard Harper-Barnes - We All Need Adventures(The Center)\n<br>\n<strong>© Radio Ben Zvi 2022</strong>',
+                description: 'הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.<br/>בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד<br/>האזנה נעימה!<br/><br><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/>יוטיוב - <br/>הפודקאסט בספוטיפי - <a herf="https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392">https://open<br/>spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392<a/><br/>הפודקאסט באפל מיוזיק - <br/>כל הפרקים ביוטיוב - <br/><br><br/><strong>-=מוזיקה=-</strong><br/>* Howard Harper-Barnes - We All Need Adventures(The Center)<br/><br><br/><strong>© Radio Ben Zvi 2022</strong>',
                 google_description: 'הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.&#13;בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס, ועוד&#13;האזנה נעימה!&#13;&#13;-=קישורים=-&#13;אתר - https://RadioBenZvi.github.io/&#13;יוטיוב - &#13;הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392/&#13;הפודקאסט באפל מיוזיק - &#13;כל הפרקים ביוטיוב - &#13;&#13;-=מוזיקה=-&#13;* Howard Harper-Barnes - We All Need Adventures(The Center)&#13;&#13;© Radio Ben Zvi 2022&#13;',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep2",
                 categories: [
@@ -568,7 +635,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 99038918,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.\nבפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד\nהאזנה נעימה!\n',
+                subtitle: 'הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.<br/>בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד<br/>האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "3742",
                 explicit: "clean",
@@ -578,8 +645,8 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 1
             {
                 title: "על מבחנים, החיים ושירים",
-                description: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.\nבפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד\nהאזנה נעימה!\n\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\n<a herf="">יוטיוב</a>\n<a herf="">הפודקאסט בספוטיפי</a>\n<a herf="">הפודקאסט באפל מיוזיק</a>\n<a herf="">כל הפרקים ביוטיוב</a>\n\n<strong>-=מוזיקה=-</strong>\n* <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a>\n    \n<strong>© Radio Ben Zvi 2022</strong>',
-                google_description: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.\nבפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד\nהאזנה נעימה!\n\n<strong>-=קישורים=-</strong>\nאתר - https://RadioBenZvi.github.io/\n<a herf="">יוטיוב</a>\n<a herf="">הפודקאסט בספוטיפי</a>\n<a herf="">הפודקאסט באפל מיוזיק</a>\n<a herf="">כל הפרקים ביוטיוב</a>\n\n<strong>-=מוזיקה=-</strong>\n* <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a>\n    \n<strong>© Radio Ben Zvi 2022</strong>',
+                description: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.<br/>בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד<br/>האזנה נעימה!<br/><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/><a herf="">יוטיוב</a><br/><a herf="">הפודקאסט בספוטיפי</a><br/><a herf="">הפודקאסט באפל מיוזיק</a><br/><a herf="">כל הפרקים ביוטיוב</a><br/><br/><strong>-=מוזיקה=-</strong><br/>* <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a><br/>    <br/><strong>© Radio Ben Zvi 2022</strong>',
+                google_description: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.<br/>בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד<br/>האזנה נעימה!<br/><br/><strong>-=קישורים=-</strong><br/>אתר - https://RadioBenZvi.github.io/<br/><a herf="">יוטיוב</a><br/><a herf="">הפודקאסט בספוטיפי</a><br/><a herf="">הפודקאסט באפל מיוזיק</a><br/><a herf="">כל הפרקים ביוטיוב</a><br/><br/><strong>-=מוזיקה=-</strong><br/>* <a herf="">Luis Humanoide - Clockwork Lands: Chronicles Aboard an Airship</a><br/>    <br/><strong>© Radio Ben Zvi 2022</strong>',
                 url: "https://podcasts.shakedkod.tech/ATWAS/Ep1",
                 categories: [
                     "Society & Culture",
@@ -592,7 +659,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 99038918,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.\nבפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד\nהאזנה נעימה!\n',
+                subtitle: 'הפרק הראשון של שיחה ללא נושא עם שקד, טל, ויואב.<br/>בפרק זה הם מדברים על המבחנים הבאים, על שירים, פרסומות ועוד<br/>האזנה נעימה!<br/>',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ATWAS/logo.png",
                 duration: "4127",
                 explicit: "clean",
@@ -604,10 +671,41 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
     "ST": {
         title: "התלמידים מדברים",
         description: "בחטיבת בן צבי, בשיעורי תקשורת, התלמידים מכינים פודקאסטים בכל שנה, הפודקאסטים של הקבוצות הנבחרות עולות לפה",
-        feed_url: "https://podcasts.shakedkod.tech/ST/feed",
-        site_url: "https://podcasts.shakedkod.tech/ST",
+        feed_url: "https://podcasts.shakedkod.tech/podcast/ST/feed",
+        site_url: "https://podcasts.shakedkod.tech/podcast/ST",
+        links: [
+            {
+                label: "spotify",
+                url: "https://open.spotify.com/show/3nw5zfUBy7cImAftLZukjL"
+            },
+            {
+                label: "apple",
+                url: "https://podcasts.apple.com/us/podcast/התלמידים-מדברים/id1711938944"
+            },
+            {
+                label: "youtube",
+                url: "https://music.youtube.com/playlist?list=PLGUNdKopvOVKHpLwIg1vs1OR3aiNPork5&si=6X8Ptzsx6ptLYMYe"
+            },
+            {
+                label: "pocket",
+                url: "https://pca.st/xhbk04yr"
+            },
+            {
+                label: "google",
+                url: "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0cy5zaGFrZWRrb2QudGVjaC9wb2RjYXN0L1NUL2ZlZWQ?sa=X&ved=0CAIQ9sEGahcKEwjAtYjnlPuBAxUAAAAAHQAAAAAQeA"
+            },
+            {
+                label: "rss",
+                url: "https://podcasts.shakedkod.tech/podcast/ST/feed"
+            },
+            {
+                label: "android",
+                url: "https://subscribeonandroid.com/podcasts.shakedkod.tech/podcast/ST/feed"
+            }
+        ],
         language: "he",
         image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ST/logo.png",
+        cover: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/cover-st.png?updatedAt=1697478758503",
         copyright: "©Radio Ben Zvi 2022",
         categories: [
             "Society & Culture",
@@ -652,8 +750,8 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 20
             {
                 title: "דיקטטורה או חלטורה",
-                description: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!\nהסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. \nמסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
-                google_description: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!\nהסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. \nמסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
+                description: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!<br/>הסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. <br/>מסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
+                google_description: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!<br/>הסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. <br/>מסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
                 url: "https://podcasts.shakedkod.tech/ST/Ep20",
                 categories: [
                     "Society & Culture",
@@ -666,7 +764,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 1392000,
                     type: "audio/mp3",
                 },
-                subtitle: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!\nהסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. \nמסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
+                subtitle: 'מתעניינים בפוליטיקה? רוצים לדעת יותר על מה שקורה במדינה? היכנסו לפודקאסט!!<br/>הסכת זה עוסק בדילמה הציבורית הבולטת ביותר בזמן האחרון, הרפורמה/מהפכה/הפיכה המשפטית. <br/>מסגרת הסכת נארח פאנל תלמידים בעד ונגד הרפורמה.',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ST/images/2023/Dictatorship.png",
                 duration: "1392",
                 explicit: "clean",
@@ -748,8 +846,8 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 16
             {
                 title: "התחממות גלובלית וזיהום סביבתי",
-                description: '-זיהום וגזי חממה וההשפעה שלהם\n-תחליפים לייצור אנרגיה מנפט ופחם\n-תעשיית הבשר משפיעה יותר משחושבים\n-אנרגיה ירוקה ומכוניות חשמליות\n\nאנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
-                google_description: '-זיהום וגזי חממה וההשפעה שלהם\n-תחליפים לייצור אנרגיה מנפט ופחם\n-תעשיית הבשר משפיעה יותר משחושבים\n-אנרגיה ירוקה ומכוניות חשמליות\n\nאנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
+                description: '-זיהום וגזי חממה וההשפעה שלהם<br/>-תחליפים לייצור אנרגיה מנפט ופחם<br/>-תעשיית הבשר משפיעה יותר משחושבים<br/>-אנרגיה ירוקה ומכוניות חשמליות<br/><br/>אנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
+                google_description: '-זיהום וגזי חממה וההשפעה שלהם<br/>-תחליפים לייצור אנרגיה מנפט ופחם<br/>-תעשיית הבשר משפיעה יותר משחושבים<br/>-אנרגיה ירוקה ומכוניות חשמליות<br/><br/>אנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
                 url: "https://podcasts.shakedkod.tech/ST/Ep16",
                 categories: [
                     "Society & Culture",
@@ -762,7 +860,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 770000,
                     type: "audio/mp3",
                 },
-                subtitle: '-זיהום וגזי חממה וההשפעה שלהם\n-תחליפים לייצור אנרגיה מנפט ופחם\n-תעשיית הבשר משפיעה יותר משחושבים\n-אנרגיה ירוקה ומכוניות חשמליות\n\nאנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
+                subtitle: '-זיהום וגזי חממה וההשפעה שלהם<br/>-תחליפים לייצור אנרגיה מנפט ופחם<br/>-תעשיית הבשר משפיעה יותר משחושבים<br/>-אנרגיה ירוקה ומכוניות חשמליות<br/><br/>אנחנו רוצים להעלות מודעות לנושא מפני שכולם יודעים עליו אבל בסופו של דבר לא חושבים עליו מספיק ובסוף שוכחים לרוב אז אנחנו באנו להזכיר שהמצב עוד קיים והוא לא הכי משתפר ועל הדרך לדבר ולהסביר לאלה ששכחו או לא יודעים מה הגורמים מה מתכננים לעשות במידה בינלאומית ומה לעשות בעצמם כדי לעזור.',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ST/images/2023/GlobalWarming.png",
                 duration: "770",
                 explicit: "clean",
@@ -796,8 +894,8 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 14
             {
                 title: "מסע בזמן | אלפרד נובל",
-                description: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. \nבפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
-                google_description: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. \nבפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
+                description: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. <br/>בפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
+                google_description: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. <br/>בפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
                 url: "https://podcasts.shakedkod.tech/ST/Ep14",
                 categories: [
                     "Society & Culture",
@@ -810,7 +908,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 380000,
                     type: "audio/mp3",
                 },
-                subtitle: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. \nבפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
+                subtitle: 'אלפרד נובל היה כימאי צעיר כשגילה על הניטרוגליצרין. הוא התנסה עם החומר ולמד איך לשלוט בו תוך שאיבד דברים חשובים לו כמו משפחה אך למרות הכל המשיך עד שהצליח לשלוט בפיצוץ הניטרוגליצרין. הוא קרא להמצאה שלו "דינמיט". הדינמיט גרמה להרס ואבדנות רבים בעולם ולכן אלפרד החליט להקים עם הירושה שלו קרן שאנחנו מכירים בתור "פרס נובל" אשר תעניק מדי שנה פרסים לאנשים פורצי דרך שעזרו לעולם בשלל תחומים כגון שלום. <br/>בפודקאסט גם נדבר על תקרית טובה ותקרית רעה שקרו בעקבות המצאת הדינמיט ומה ההשלכות שלהן על העולם. האזנה נעימה!',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ST/images/2023/Nobel.png",
                 duration: "380",
                 explicit: "clean",
@@ -940,8 +1038,8 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
             // Episode 8
             {
                 title: "יציאה בשאלה | התהליך של שרה לסטר",
-                description: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.\nמסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה\nומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי\nלאף אחד לפספס',
-                google_description: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.\nמסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה\nומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי\nלאף אחד לפספס',
+                description: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.<br/>מסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה<br/>ומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי<br/>לאף אחד לפספס',
+                google_description: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.<br/>מסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה<br/>ומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי<br/>לאף אחד לפספס',
                 url: "https://podcasts.shakedkod.tech/ST/Ep8",
                 categories: [
                     "Society & Culture",
@@ -954,7 +1052,7 @@ export const PODCASTS: { [name: string]: RSSDataProps } = {
                     size: 780000,
                     type: "audio/mp3",
                 },
-                subtitle: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.\nמסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה\nומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי\nלאף אחד לפספס',
+                subtitle: 'הפודקאסט עוסק על בתהליך של שרה לסטר ביציאתה בשאלה.<br/>מסופר שם כיצד היא התמודדה עם התהליך, מה היו השאיפות שלה<br/>ומדוע רצתה לצאת ולעזוב את החברה החרדית. סיפור מאוד מעניין, לא כדאי<br/>לאף אחד לפספס',
                 image: "https://raw.githubusercontent.com/Shakedkod/Podcasts.ShakedKod.tech/main/public/podcast-assets/ST/images/2023/FromReligusToNot.png",
                 duration: "780",
                 explicit: "clean",
