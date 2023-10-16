@@ -62,7 +62,7 @@ const Page = async ({ params }: { params: {id: string} }) => {
                 <ul className="pt-2 flex flex-col items-center justify-between gap-6">
                     {PODCASTS[id].language === "he" ? PODCASTS[id].episodes.map((episode, index) => (
                         <li className="h-[270px] text-right" key={index}>
-                            <Link href={`/podcast/${id}/Ep${index + 1}`} className="bg-slate-900 rounded-3xl h-[220px] group hover:h-[250px] transition-[height] duration-500 ease-in-out flex flex-row p-[10px] relative">
+                            <Link href={`/podcast/${id}/Ep${PODCASTS[id].episodes.length - index}`} className="bg-slate-900 rounded-3xl h-[220px] group hover:h-[250px] transition-[height] duration-500 ease-in-out flex flex-row p-[10px] relative">
                                 <div className="absolute regular-24 z-0 h-full text-[#75757541] flex flex-col justify-center items-center gap-0">
                                     <p className="absolute top-5">season</p>
                                     <span className="bold-180">{episode.season}</span>
