@@ -17,7 +17,7 @@ function getIcon(label: string)
     }
 }
 
-const Page = async ({ device, params }: { device: 'mobile' | 'desktop'; params: {id: string} }) => {
+const Page = async ({ params }: { params: {id: string} }) => {
     if (!params.id) return null;
     const id = params.id;
     const title = PODCASTS[id].title;
