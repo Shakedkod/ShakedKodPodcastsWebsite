@@ -13,10 +13,12 @@ const Navbar = () => {
     const pathname = usePathname();
     const [toggle, setToggle] = useState(false);
 
+    const hoverColor = pathname?.includes("Ep") ? "#EF4444" : "#FEC601";
+
     return (
         <>
             <nav 
-                className="padding-container relative top-0 z-40 py-5 4xl:py-14 hidden lg:flex items-center justify-center flex-row bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-60%"
+                className="padding-container relative top-0 z-40 py-5 4xl:py-14 hidden lg:flex items-center justify-center flex-row bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-60% "
             >
                 <ul className="flexBetween gap-5 4xl:gap-12">
                     {NavItemsLeft.map((link, index) => {  
@@ -25,9 +27,9 @@ const Navbar = () => {
                         return (
                             <motion.li 
                                 key={index} 
-                                initial={{ color: isActive ? '#FEC601' : '#fff' }}
+                                initial={{ color: isActive ? hoverColor : '#fff' }}
                                 whileHover={{
-                                    color: '#FEC601',
+                                    color: hoverColor,
                                     transition: {
                                         duration: 0.2
                                     }
@@ -66,9 +68,9 @@ const Navbar = () => {
                         return (
                             <motion.li 
                                 key={index} 
-                                initial={{ color: isActive ? '#FEC601' : '#fff' }}
+                                initial={{ color: isActive ? hoverColor : '#fff' }}
                                 whileHover={{
-                                    color: '#FEC601',
+                                    color: hoverColor,
                                     transition: {
                                         duration: 0.2
                                     }
@@ -101,7 +103,7 @@ const Navbar = () => {
                     className="fixed top-0 right-0 w-2/3 h-full bg-slate-950 transition-colors duration-300"
                 >
                     <Image
-                        src="/assets/close.svg"
+                        src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/close.svg?updatedAt=1697523810599"
                         alt="close"
                         width={40}
                         height={40}
@@ -111,6 +113,7 @@ const Navbar = () => {
                     <ul className="flexBetween flex-col gap-5 regular-32">
                         {[...NavItemsLeft, ...NavItemsRight].map((link, index) => {
                             const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
+                            const text = link.title.replace("ㅤ", '');
                             
                             return (
                                 <motion.li 
@@ -125,7 +128,7 @@ const Navbar = () => {
                                     className="inline-block mr-5"
                                 >
                                     <Link href={link.path} onClick={() => setToggle(false)} className="regular-20">
-                                        {link.title}
+                                        {text}
                                     </Link>
                                 </motion.li>
                             )
@@ -133,7 +136,7 @@ const Navbar = () => {
                     </ul>
                 </motion.div> : <>
                     <Image
-                        src="/assets/menu.svg"
+                        src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/menu.svg?updatedAt=1697523810601"
                         alt="menu"
                         width={32}
                         height={32}
