@@ -58,7 +58,7 @@ const Navbar = () => {
                                 alt="ShakedKod's logo"
                                 width={50}
                                 height={50}
-                                className="absolute top-0 left-0 cursor-pointer"
+                                className="absolute top-0 left-0 cursor-pointer 4xl:w-[12rem] 4xl:h-[12rem]"
                             />
                         </motion.div>
                     </Link>

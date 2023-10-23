@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'The home for Shakedkod\'s podcasts',
 }
 
-import localFont from '@next/font/local'
+import localFont from 'next/font/local'
 
 const archayFont = localFont({
     src: './fonts/archay.ttf',

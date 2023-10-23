@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.5.4",
     "feed": "^4.2.2",
     "framer-motion": "^10.16.4",
     "next": "13.5.4",
