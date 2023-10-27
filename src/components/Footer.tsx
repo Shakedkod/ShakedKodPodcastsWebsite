@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
                     <Link href="/" className="mb-10">
                         <Image 
-                            src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
+                            src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
                             alt="logo"
                             width={74}
                             height={29}

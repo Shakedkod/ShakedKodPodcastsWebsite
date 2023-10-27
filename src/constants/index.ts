@@ -5,27 +5,12 @@ export const FooterLinks = [
             {
                 label: "My Podcasts",
                 icon: null,
-                path: "/#podcasts",
+                path: "https://podcast.shakedkod.tech/#podcasts",
             },
             {
                 label: "Podcasts in collaboration with me",
                 icon: null,
-                path: "/#podcasts-colab",
-            }
-        ]
-    },
-    {
-        name: "Info",
-        children: [
-            {
-                label: "About",
-                icon: null,
-                path: "/#info",
-            },
-            {
-                label: "Contact",
-                icon: null,
-                path: "/contact",
+                path: "https://podcast.shakedkod.tech/#podcasts-colab",
             },
             {
                 label: "Radio Ben Zvi",
@@ -36,6 +21,31 @@ export const FooterLinks = [
                 label: "Radio Ben Zvi Youtube",
                 icon: null,
                 path: "https://www.youtube.com/channel/UC201HUhnv757FkBdZOJZfIg"
+            }
+        ]
+    },
+    {
+        name: "Info",
+        children: [
+            {
+                label: "About",
+                icon: null,
+                path: "/about",
+            },
+            {
+                label: "Myself as a developer",
+                icon: null,
+                path: "https://programs.shakedkod.tech/#info",
+            },
+            {
+                label: "Myself as a podcaster",
+                icon: null,
+                path: "https://podcast.shakedkod.tech/#inf",
+            },
+            {
+                label: "Contact",
+                icon: null,
+                path: "/contact",
             }
         ]
     }
@@ -52,23 +62,23 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = [
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/instagram.svg?updatedAt=1697402415656",
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/instagram.svg?updatedAt=1698440529195",
         path: "https://www.instagram.com/shakedkod",
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/github.svg?updatedAt=1697402415904",
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/github.svg?updatedAt=1698440529450",
         path: "https://github.com/shakedkod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/linkedin.svg?updatedAt=1697402415646",
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/linkedin.svg?updatedAt=1698440529304",
         path: "https://www.linkedin.com/in/shakedkod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/youtube.svg?updatedAt=1697402415895",
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/youtube.svg?updatedAt=1698440529479",
         path: "https://www.youtube.com/@ShakedKod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/twitter.svg?updatedAt=1697402415774",
+        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/twitter.svg?updatedAt=1698440529306",
         path: "https://twitter.com/m_ShakedKod"
     }
 ];

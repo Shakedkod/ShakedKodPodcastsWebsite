@@ -54,7 +54,7 @@ const Navbar = () => {
                             className="w-[50px] h-[50px] 4xl:w-[12rem] 4xl:h-[12rem] relative"
                         >
                             <Image
-                                src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
+                                src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
                                 alt="ShakedKod's logo"
                                 width={50}
                                 height={50}
@@ -88,7 +88,7 @@ const Navbar = () => {
             <nav className="flexBetween max-container padding-container relative z-30 py-5 lg:hidden bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-35% xs:via-40%">
                 <Link href="https://shakedkod.tech">
                     <Image
-                        src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
+                        src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
                         alt="ShakedKod's logo"
                         width={32}
                         height={32}
@@ -103,7 +103,7 @@ const Navbar = () => {
                     className="fixed top-0 right-0 w-2/3 h-full bg-slate-950 transition-colors duration-300"
                 >
                     <Image
-                        src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/close.svg?updatedAt=1697523810599"
+                        src="https://ik.imagekit.io/shakedkod/shakedkod-website/close.svg?updatedAt=1698440529482"
                         alt="close"
                         width={40}
                         height={40}
@@ -136,7 +136,7 @@ const Navbar = () => {
                     </ul>
                 </motion.div> : <>
                     <Image
-                        src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/menu.svg?updatedAt=1697523810601"
+                        src="https://ik.imagekit.io/shakedkod/shakedkod-website/menu.svg?updatedAt=1698440529171"
                         alt="menu"
                         width={32}
                         height={32}
