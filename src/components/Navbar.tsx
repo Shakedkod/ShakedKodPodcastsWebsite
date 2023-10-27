@@ -42,7 +42,7 @@ const Navbar = () => {
                             </motion.li>
                         )
                     })}
-                    <Link href="/">
+                    <Link href="https://shakedkod.tech">
                         <motion.div
                             initial={{ scale: 1 }}
                             whileHover={{
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <nav className="flexBetween max-container padding-container relative z-30 py-5 lg:hidden bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-35% xs:via-40%">
-                <Link href="/">
+                <Link href="https://shakedkod.tech">
                     <Image
                         src="https://ik.imagekit.io/shakedkod/shakedkod-podcasts/logo.png?updatedAt=1697326253663"
                         alt="ShakedKod's logo"

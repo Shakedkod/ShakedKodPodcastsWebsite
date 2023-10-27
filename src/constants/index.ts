@@ -76,11 +76,11 @@ export const SOCIALS = [
 export const NavItemsLeft = [
     {
         title: "About",
-        path: "/#info",
+        path: "https://shakedkod.tech/about",
     },
     {
         title: "Programsㅤ",
-        path: "/programer",
+        path: "https://shakedkod.tech/program",
     },
 ];
 
@@ -91,7 +91,7 @@ export const NavItemsRight = [
     },
     {
         title: "Contact",
-        path: "/contact",
+        path: "https://shakedkod.tech/contact",
     },
 ];
 
