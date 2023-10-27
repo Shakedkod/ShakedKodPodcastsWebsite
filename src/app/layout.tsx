@@ -1,8 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import Wrapper from './wrapper'
 
 export const metadata: Metadata = {
   title: "ShakedKod's Podcasts",
@@ -21,11 +19,9 @@ export default function RootLayout({children}: {children: React.ReactNode})
   return (
     <html lang="en" className={archayFont.variable}>
       <body className="bg-blue-70 text-white hide-scrollbar">
-        <Navbar />
-        <main>
+        <Wrapper>
           {children}
-        </main>
-        <Footer />
+        </Wrapper>
       </body>
     </html>
   )

@@ -14,6 +14,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     const hoverColor = pathname?.includes("Ep") ? "#EF4444" : "#FEC601";
+    const homePath = pathname === "/" ? "https://shakedkod.tech" : "/";
 
     return (
         <>
@@ -42,7 +43,7 @@ const Navbar = () => {
                             </motion.li>
                         )
                     })}
-                    <Link href="https://shakedkod.tech">
+                    <Link href={homePath}>
                         <motion.div
                             initial={{ scale: 1 }}
                             whileHover={{
@@ -86,7 +87,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <nav className="flexBetween max-container padding-container relative z-30 py-5 lg:hidden bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-35% xs:via-40%">
-                <Link href="https://shakedkod.tech">
+                <Link href={homePath}>
                     <Image
                         src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
                         alt="ShakedKod's logo"
