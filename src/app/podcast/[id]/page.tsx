@@ -23,6 +23,8 @@ const Page = async ({ params }: { params: {id: string} }) => {
 
     if (!podcast) return null;
 
+    console.log(podcast.episodes.length);
+
     return (
         <>
             <header className="flex flex-row relative -top-10 left-0 z-0">
@@ -68,7 +70,7 @@ const Page = async ({ params }: { params: {id: string} }) => {
             <div className="flex flex-col items-center justify-start">
                 <h2 className="bold-52 md:bold-64 text-cyan-500 font-philo mb-3">Episodes</h2>
                 <ul className="pt-2 flex flex-col items-center justify-between gap-6">
-                    {podcast.language === "he" ? podcast.episodes?.map((episode, index) => (
+                    {podcast.language === "he" ? podcast.episodes.map((episode, index) => (
                         <li className="md:h-[270px] text-right" key={index}>
                             <Link href={`/podcast/${params.id}/Ep${podcast.episodes.length - index}`} className="bg-slate-900 rounded-3xl w-[300px] md:w-auto md:h-[220px] group md:hover:h-[250px] transition-[height] duration-500 ease-in-out flex flex-col md:flex-row p-[10px] relative">
                                 <Image
@@ -95,7 +97,7 @@ const Page = async ({ params }: { params: {id: string} }) => {
                                 />
                             </Link>
                         </li>
-                    )) : podcast.episodes?.map((episode, index) => (
+                    )) : podcast.episodes.map((episode, index) => (
                         <li className="h-[270px] text-left" key={index}>
                             <Link href={`/podcast/${params.id}/Ep${podcast.episodes?.length || 1 - index}`} className="bg-slate-900 rounded-3xl h-[220px] group hover:h-[250px] transition-[height] duration-500 ease-in-out flex flex-row p-[10px] relative">
                                 <Image
