@@ -1,20 +1,21 @@
 import { PODCASTS, RSSDataProps } from "@/constants";
+import { client } from "@/utils/sanity/client";
+import { Episode, Podcast } from "@/utils/sanity/types";
 import RSS from "rss";
 
-const generateRssFeed = async (data: RSSDataProps) => {
-    // create a new feed with the basic info
+const generateRssFeed = async (data: Podcast) => {
     const feed = new RSS({
-        title: data.title,
+        title: data.title || "ERROR",
         description: data.description,
-        feed_url: data.feed_url,
-        site_url: data.site_url,
+        feed_url: data.feed_url || "https://podcasts.shakedkod.tech",
+        site_url: data.site_url || "https://podcasts.shakedkod.tech",
         image_url: data.image,
         managingEditor: data.editor,
         webMaster: data.web_master,
         copyright: data.copyright,
         language: data.language,
         categories: data.categories,
-        pubDate: new Date().toString(),
+        pubDate: new Date(),
         ttl: 60,
         custom_namespaces: {
             "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
@@ -22,12 +23,12 @@ const generateRssFeed = async (data: RSSDataProps) => {
         },
         custom_elements: [
             {'itunes:subtitle': data.description},
-            {'itunes:author': data.author.name},
+            {'itunes:author': data.author?.name},
             {'itunes:summary': data.description},
             {
                 'itunes:owner': [
-                    {'itunes:name': data.author.name},
-                    {'itunes:email': data.author.email}
+                    {'itunes:name': data.author?.name},
+                    {'itunes:email': data.author?.email}
                 ]
             },
             {
@@ -41,13 +42,13 @@ const generateRssFeed = async (data: RSSDataProps) => {
                 "itunes:category": [
                     {
                         _attr: {
-                            text: data.categories[0]
+                            text: data.categories? data.categories[0] : "ERROR"
                         }
                     },
                     {
                         "itunes:category": {
                             _attr: {
-                                text: data.categories[1]
+                                text: data.categories? data.categories[1] : "ERROR"
                             }
                         }
                     }
@@ -55,25 +56,25 @@ const generateRssFeed = async (data: RSSDataProps) => {
             },
             {'itunes:explicit': data.explicit},
             {'itunes:type': data.type},
-            {"googleplay:author": data.author.name},
+            {"googleplay:author": data.author?.name},
         ]
     });
 
     // add episodes
-    data.episodes.forEach(
-        (episode: any) => {
+    data.episodes?.forEach(
+        (episode: Episode) => {
             feed.item({
-                title: episode.title,
-                description: episode.description,
-                url: episode.url,
-                guid: episode.url,
+                title: episode.title || "ERROR",
+                description: episode.description || "ERROR",
+                url: episode.link || "ERROR",
+                guid: episode.link || "ERROR",
                 categories: episode.categories,
                 author: episode.author,
-                date: episode.date,
+                date: episode.pub_date ? new Date(episode.pub_date) : new Date(),
                 enclosure: {
-                    url: episode.audio.url,
-                    size: episode.audio.size,
-                    type: episode.audio.type
+                    url: episode.enclosure?.audio || "ERROR",
+                    size: episode.enclosure?.length,
+                    type: episode.enclosure?.type
                 },
                 custom_elements: [
                     {'itunes:author': episode.author},
@@ -87,7 +88,7 @@ const generateRssFeed = async (data: RSSDataProps) => {
                     },
                     {"itunes:duration": episode.duration},
                     {"itunes:explicit": episode.explicit},
-                    {"itunes:episodeType": episode.episodeType},
+                    {"itunes:episodeType": episode.episode_type},
                     {"itunes:season": episode.season},
                     {"googleplay:description": episode.google_description},
                 ]
@@ -103,7 +104,21 @@ const Page = () => {};
 
 export async function getServerSideProps({ params, res }: { params: {id: string}; res: any })
 {
-    const rss = await generateRssFeed(PODCASTS[params.id]);
+    if (!params.id || !PODCASTS[params.id])
+    {
+        res.statusCode = 404;
+        res.end("Not Found");
+        return { props: {} };
+    }
+
+    const podcasts = await client.fetch<Podcast[]>(`*[_type == "podcast" && url_name match '${params.id}*']`);
+    if (!podcasts || podcasts.length === 0) {
+        res.statusCode = 404;
+        res.end("Not Found");
+        return { props: {} };
+    }
+    
+    const rss = await generateRssFeed(podcasts[0]);
 
     res.setHeader("Content-Type", "text/xml");
     res.write(rss);

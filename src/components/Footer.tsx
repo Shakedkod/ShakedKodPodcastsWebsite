@@ -38,7 +38,7 @@ const Footer = () => {
 
                     <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
                         {FooterLinks.map((column) => (
-                            <FooterColumn title={column.name}>
+                            <FooterColumn key={column.name} title={column.name}>
                                 <ul className="regular-14 flex flex-col gap-4 text-gray-500">
                                     {column.children.map((link) => (
                                         <Link href={link.path} key={link.path} className="hover:text-yellow-50">

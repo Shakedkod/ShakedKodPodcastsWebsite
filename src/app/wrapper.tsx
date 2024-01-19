@@ -5,11 +5,9 @@ import Navbar from '@/components/Navbar'
 import { AnimatePresence, motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import Image from "next/image";
-import { useState, useEffect } from 'react'
 
 const Wrapper = ({children}: {children: React.ReactNode}) => {
     const pathname = usePathname();
-    const [loading, setLoading] = useState(true); 
     
     return (
         <AnimatePresence mode="wait">
