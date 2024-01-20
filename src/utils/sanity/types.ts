@@ -9,6 +9,7 @@ export type Episode = {
     pub_date: string;
     enclosure: {
         length: number;
+        url: string;
         type: "audio/mp3" | "audio/mpg" | "audio/wav";
     };
     subtitle: string;

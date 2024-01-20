@@ -1,4 +1,4 @@
-import { client, getEpisodeAudio } from "@/utils/sanity/client";
+import { client, getEpisodeAudio, urlFor } from "@/utils/sanity/client";
 import { Episode, Podcast } from "@/utils/sanity/types";
 import RSS from "rss";
 
@@ -62,9 +62,6 @@ const generateRssFeed = async (data: Podcast) => {
     // add episodes
     data.episodes?.forEach(
         async (episode: Episode, index) => {
-            const audio = await getEpisodeAudio(data.url_name, index)
-            if (!audio) return;
-
             feed.item({
                 title: episode.title || "ERROR",
                 description: episode.description || "ERROR",
@@ -74,7 +71,7 @@ const generateRssFeed = async (data: Podcast) => {
                 author: episode.author,
                 date: episode.pub_date ? new Date(episode.pub_date) : new Date(),
                 enclosure: {
-                    url: audio,
+                    url: episode.enclosure.url,
                     size: episode.enclosure?.length,
                     type: episode.enclosure?.type
                 },
@@ -84,7 +81,7 @@ const generateRssFeed = async (data: Podcast) => {
                     {
                         "itunes:image": {
                             _attr: {
-                                href: episode.image
+                                href: urlFor(episode.image).url()
                             }
                         }
                     },
