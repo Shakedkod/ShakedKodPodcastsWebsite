@@ -1,5 +1,4 @@
-import { PODCASTS, RSSDataProps } from "@/constants";
-import { client } from "@/utils/sanity/client";
+import { client, getEpisodeAudio } from "@/utils/sanity/client";
 import { Episode, Podcast } from "@/utils/sanity/types";
 import RSS from "rss";
 
@@ -62,7 +61,10 @@ const generateRssFeed = async (data: Podcast) => {
 
     // add episodes
     data.episodes?.forEach(
-        (episode: Episode) => {
+        async (episode: Episode, index) => {
+            const audio = await getEpisodeAudio(data.url_name, index)
+            if (!audio) return;
+
             feed.item({
                 title: episode.title || "ERROR",
                 description: episode.description || "ERROR",
@@ -72,7 +74,7 @@ const generateRssFeed = async (data: Podcast) => {
                 author: episode.author,
                 date: episode.pub_date ? new Date(episode.pub_date) : new Date(),
                 enclosure: {
-                    url: episode.enclosure?.audio || "ERROR",
+                    url: audio,
                     size: episode.enclosure?.length,
                     type: episode.enclosure?.type
                 },
@@ -104,7 +106,7 @@ const Page = () => {};
 
 export async function getServerSideProps({ params, res }: { params: {id: string}; res: any })
 {
-    if (!params.id || !PODCASTS[params.id])
+    if (!params.id || params.id.length === 0)
     {
         res.statusCode = 404;
         res.end("Not Found");
