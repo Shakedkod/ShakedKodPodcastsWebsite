@@ -4,7 +4,7 @@ import RSS from "rss";
 
 const generateRssFeed = async (data: Podcast) => {
     const feed = new RSS({
-        title: data.title || "ERROR",
+        title: data.title,
         description: data.description,
         feed_url: data.feed_url || "https://podcasts.shakedkod.tech",
         site_url: data.site_url || "https://podcasts.shakedkod.tech",
@@ -41,13 +41,13 @@ const generateRssFeed = async (data: Podcast) => {
                 "itunes:category": [
                     {
                         _attr: {
-                            text: data.categories? data.categories[0] : "ERROR"
+                            text: data.categories? data.categories[0] : ""
                         }
                     },
                     {
                         "itunes:category": {
                             _attr: {
-                                text: data.categories? data.categories[1] : "ERROR"
+                                text: data.categories? data.categories[1] : ""
                             }
                         }
                     }
@@ -63,10 +63,10 @@ const generateRssFeed = async (data: Podcast) => {
     data.episodes?.forEach(
         async (episode: Episode, index) => {
             feed.item({
-                title: episode.title || "ERROR",
-                description: episode.description || "ERROR",
-                url: episode.link || "ERROR",
-                guid: episode.link || "ERROR",
+                title: episode.title || "",
+                description: episode.description || "",
+                url: episode.link || "",
+                guid: episode.link || "",
                 categories: episode.categories,
                 author: episode.author,
                 date: episode.pub_date ? new Date(episode.pub_date) : new Date(),
