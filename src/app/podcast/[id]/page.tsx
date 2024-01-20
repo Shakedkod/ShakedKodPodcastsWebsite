@@ -23,8 +23,6 @@ const Page = async ({ params }: { params: {id: string} }) => {
 
     if (!podcast) return null;
 
-    console.log(podcast.episodes.length);
-
     return (
         <>
             <header className="flex flex-row relative -top-10 left-0 z-0">
@@ -86,7 +84,7 @@ const Page = async ({ params }: { params: {id: string} }) => {
                                 </div>
                                 <div className="z-30 flex flex-col items-end justify-center pr-3 md:w-[45rem] md:group-hover:w-[48rem]">
                                     <h3 className="regular-32">{episode.title}</h3>
-                                    <div className="w-[250px] md:w-auto h-[150px] md:h-[100px] md:group-hover:h-[100px] overflow-clip" dangerouslySetInnerHTML={{ __html: episode.description || "ERROR" }}/>
+                                    <div className="w-[250px] md:w-auto h-[150px] md:h-[100px] md:group-hover:h-[100px] overflow-clip" dangerouslySetInnerHTML={{ __html: episode.description || "" }}/>
                                 </div>
                                 <Image
                                     src={urlFor(episode.image || "ERROR").url()}
@@ -113,7 +111,7 @@ const Page = async ({ params }: { params: {id: string} }) => {
                                 </div>
                                 <div className="z-30 flex flex-col items-start justify-center pl-3 w-[45rem] group-hover:w-[48rem]">
                                     <h3 className="regular-32">{episode.title}</h3>
-                                    <div className="h-[100px] group-hover:h-[100px] overflow-clip" dangerouslySetInnerHTML={{ __html: episode.description || "ERROR" }}/>
+                                    <div className="h-[100px] group-hover:h-[100px] overflow-clip" dangerouslySetInnerHTML={{ __html: episode.description || "" }}/>
                                 </div>
                             </Link>
                         </li>

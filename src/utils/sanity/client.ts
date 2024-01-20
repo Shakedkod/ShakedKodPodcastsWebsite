@@ -1,6 +1,6 @@
 import { createClient } from 'next-sanity';
 import imageUrlBuilder from '@sanity/image-url';
-import { Podcast, PodcastAudio } from './types';
+import { Podcast, PodcastAudio, WebsiteAsset, WebsiteImage } from './types';
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET
@@ -18,7 +18,7 @@ export const builder = imageUrlBuilder(client);
 export const urlFor = (source: string) => builder.image(source);
 
 export const getPodcast = async (podId: string) => {
-    const podcasts = await client.fetch<Podcast[]>(`*[_type == "podcast" && url_name match '${podId}*']`);
+    const podcasts = await client.fetch<Podcast[]>(`*[_type == "podcast" && url_name match '${podId}']`);
 
     if (!podcasts || podcasts.length === 0) return null;
     const podcast = podcasts[0];
@@ -54,4 +54,20 @@ export const getEpisodeAudio = async (podId: string, epNum: number) => {
     if (!audio || audio.length === 0) return null;
     
     return `${audio[0].audioUrl}?dl=${podId}-${epNum}.mp3`;
+};
+
+export const getFileAsset = async (name: string) => {
+    const asset = await client.fetch<WebsiteAsset[]>(`*[_type == 'website_asset' && name match '${name}'] {file_name, "url": file.asset->url}`);
+
+    if (!asset || asset.length === 0) return null;
+    
+    return `${asset[0].url}?dl=${name}`;
+};
+
+export const getImageAsset = async (name: string) => {
+    const asset = await client.fetch<WebsiteImage[]>(`*[_type == 'website_image' && name match '${name}']`);
+
+    if (!asset || asset.length === 0) return null;
+    
+    return urlFor(asset[0].file).url();
 };

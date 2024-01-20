@@ -51,3 +51,13 @@ export type PodcastAudio = {
     title: string;
     audioUrl: string;
 };
+
+export type WebsiteAsset = {
+    file_name: string;
+    url: string;
+};
+
+export type WebsiteImage = {
+    name: string;
+    file: string;
+};
