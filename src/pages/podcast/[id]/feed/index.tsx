@@ -62,14 +62,16 @@ const generateRssFeed = async (data: Podcast) => {
     // add episodes
     data.episodes?.forEach(
         async (episode: Episode, index) => {
-            feed.item({
+            const date = new Date(episode.pub_date)
+            
+            if (date <= new Date()) feed.item({
                 title: episode.title || "",
                 description: episode.description || "",
                 url: episode.link || "",
                 guid: episode.link || "",
                 categories: episode.categories,
                 author: episode.author,
-                date: episode.pub_date ? new Date(episode.pub_date) : new Date(),
+                date: episode.pub_date ? date : new Date(),
                 enclosure: {
                     url: episode.enclosure.url,
                     size: episode.enclosure?.length,
