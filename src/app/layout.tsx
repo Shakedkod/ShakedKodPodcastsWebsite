@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Wrapper from './wrapper'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "ShakedKod's Podcasts",
@@ -22,6 +23,7 @@ export default function RootLayout({children}: {children: React.ReactNode})
         <Wrapper>
           {children}
         </Wrapper>
+        <SpeedInsights />
       </body>
     </html>
   )
