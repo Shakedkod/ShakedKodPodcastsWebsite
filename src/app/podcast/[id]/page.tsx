@@ -7,13 +7,13 @@ function getIcon(label: string)
 {
     switch (label)
     {
-        case "spotify": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/spotify.svg?updatedAt=1697444519955";
-        case "apple": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/apple-podcasts.svg?updatedAt=1697444520080";
-        case "youtube": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/youtube-music.svg?updatedAt=1697444519975";
-        case "google": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/google-podcasts.svg?updatedAt=1697444520008";
-        case "pocket": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/pocket-casts.svg?updatedAt=1697444520278";
-        case "rss": return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/rss.svg?updatedAt=1697444519937";
-        default: return "https://ik.imagekit.io/shakedkod/shakedkod-podcasts/android.svg?updatedAt=1697444520245";
+        case "spotify": return "/assets/spotify.svg";
+        case "apple": return "/assets/apple.svg";
+        case "youtube": return "/assets/youtube-music.svg";
+        case "google": return "/assets/google.svg";
+        case "pocket": return "/assets/pocket.svg";
+        case "rss": return "/assets/rss.svg";
+        default: return "/assets/android.svg";
     }
 }
 

@@ -1,26 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import {
-    AiOutlineInstagram,
-    AiOutlineGithub, 
-    AiOutlineLinkedin,
-    AiOutlineYoutube,
-    AiOutlineTwitter
-} from "react-icons/ai";
-
 import { FOOTER_CONTACT_INFO, FooterLinks, SOCIALS } from "@/constants";
-
-function chooseIcon(label: string)
-{
-    switch(label)
-    {
-        case "Instagram": return <AiOutlineInstagram/>
-        case "Github": return <AiOutlineGithub/>
-        case "LinkedIn": return <AiOutlineLinkedin/>
-        case "Youtube": return <AiOutlineYoutube/>
-        case "Twitter": return <AiOutlineTwitter/>
-    }
-}
 
 const Footer = () => {
     return (
@@ -29,7 +9,7 @@ const Footer = () => {
                 <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
                     <Link href="/" className="mb-10">
                         <Image 
-                            src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
+                            src="/assets/logo.png"
                             alt="logo"
                             width={74}
                             height={29}
@@ -88,7 +68,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border border-gray-50"/>
-                <p className="regular-14 w-full text-center text-gray-500">2023 ShakedKod | All rights reserved</p>
+                <p className="regular-14 w-full text-center text-gray-500">2024 ShakedKod | All rights reserved</p>
             </div>
         </footer>
     );

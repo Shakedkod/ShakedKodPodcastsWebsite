@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <section className="relative -top-10 left-0 z-0">
             <Image
-                src="https://cdn.sanity.io/images/qob9unl6/production/cb9f53b43b070bc5fea846c042702584a741004b-2560x1080.jpg"
+                src="/assets/cover.jpeg"
                 alt="ShakedKod's Podcasts"
                 width={200}
                 height={200}

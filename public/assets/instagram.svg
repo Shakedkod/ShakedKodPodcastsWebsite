@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="240px"
+   height="240px"
+   version="1.1"
+   id="svg267"
+   sodipodi:docname="icons8-insta.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs271">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1033">
+      <stop
+         style="stop-color:#ffe100;stop-opacity:1;"
+         offset="0"
+         id="stop1029" />
+      <stop
+         style="stop-color:#ff6b00;stop-opacity:1;"
+         offset="1"
+         id="stop1031" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1033"
+       id="linearGradient1035"
+       x1="5.9898405"
+       y1="23.999414"
+       x2="42.008989"
+       y2="23.999414"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview269"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.4875"
+     inkscape:cx="83.010753"
+     inkscape:cy="120.14337"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg267" />
+  <radialGradient
+     id="yOrnnhliCrdS2gy~4tD8ma"
+     cx="19.38"
+     cy="42.035"
+     r="44.899"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#fd5"
+       id="stop237" />
+    <stop
+       offset=".328"
+       stop-color="#ff543f"
+       id="stop239" />
+    <stop
+       offset=".348"
+       stop-color="#fc5245"
+       id="stop241" />
+    <stop
+       offset=".504"
+       stop-color="#e64771"
+       id="stop243" />
+    <stop
+       offset=".643"
+       stop-color="#d53e91"
+       id="stop245" />
+    <stop
+       offset=".761"
+       stop-color="#cc39a4"
+       id="stop247" />
+    <stop
+       offset=".841"
+       stop-color="#c837ab"
+       id="stop249" />
+  </radialGradient>
+  <path
+     id="path252"
+     d="M 33.982031 5.9898438 L 13.982031 6.0089844 C 9.5820357 6.0139844 5.9858438 9.6171919 5.9898438 14.017188 L 6.0089844 34.017187 C 6.0139844 38.417183 9.6171919 42.012984 14.017188 42.008984 L 34.017187 41.989844 C 38.417183 41.985844 42.013984 38.383027 42.008984 33.982031 L 41.989844 13.982031 C 41.984844 9.5820357 38.382027 5.9858438 33.982031 5.9898438 z M 18 11 L 30 11 C 33.858992 11 37 14.140008 37 18 L 37 30 C 37 33.859992 33.858992 37 30 37 L 18 37 C 14.141008 37 11 33.859992 11 30 L 11 18 C 11 14.140008 14.141008 11 18 11 z M 18 13 C 15.243006 13 13 15.243006 13 18 L 13 30 C 13 32.756994 15.243006 35 18 35 L 30 35 C 32.756994 35 35 32.756994 35 30 L 35 18 C 35 15.243006 32.756994 13 30 13 L 18 13 z M 31.5 15 A 1.5 1.5 0 0 1 33 16.5 A 1.5 1.5 0 0 1 31.5 18 A 1.5 1.5 0 0 1 30 16.5 A 1.5 1.5 0 0 1 31.5 15 z M 24 17 C 27.858992 17 31 20.140008 31 24 C 31 27.859992 27.858992 31 24 31 C 20.141008 31 17 27.859992 17 24 C 17 20.140008 20.141008 17 24 17 z M 24 19 C 21.243006 19 19 21.243006 19 24 C 19 26.756994 21.243006 29 24 29 C 26.756994 29 29 26.756994 29 24 C 29 21.243006 26.756994 19 24 19 z "
+     style="fill-opacity:1;fill:url(#linearGradient1035)" />
+  <radialGradient
+     id="yOrnnhliCrdS2gy~4tD8mb"
+     cx="11.786"
+     cy="5.54"
+     r="29.813"
+     gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#4168c9"
+       id="stop254" />
+    <stop
+       offset=".999"
+       stop-color="#4168c9"
+       stop-opacity="0"
+       id="stop256" />
+  </radialGradient>
+</svg>

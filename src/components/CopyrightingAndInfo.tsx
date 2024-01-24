@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const CopyrightingAndInfo = () => {
     return (
@@ -17,9 +18,9 @@ const CopyrightingAndInfo = () => {
                 transition={{ duration: 1 }}
                 className="w-full flex justify-end content-end"
             >
-                <div className="flex flex-col justify-start content-start text-right bg-pattern rounded-l-3xl p-5 w-[67%] md:w-[48%] mb-5 md:mb-0">
-                    <h3 className="bold-32 pr-5 text-yellow-50 pt-3">?מה תמצאו באתר הזה</h3>
-                    <div className="regular-20 pr-5 pt-1">
+                <div className="flex flex-col justify-start content-start text-right rounded-l-3xl p-5 w-[67%] md:w-[48%] mb-5 md:mb-0">
+                    <h3 className="bold-32 text-yellow-50 pt-3">?מה תמצאו באתר הזה</h3>
+                    <div className="regular-20 pt-1">
                         <p>.באתר זה נמצאים כל הפודקאסטים שאותם אני יוצר ופודקאסטים שאותם אני מפיק, עורך או עוזר בכל דרך אחרת</p>
                         <p className="mb-2">.אותם תוכלו לראות למטה</p>
                         <p>
@@ -35,10 +36,17 @@ const CopyrightingAndInfo = () => {
                         <br/>
                         <br/>
                     </div>
-                    <h3 className="bold-32 pr-5 text-cyan-400 pt-3">?מה זה רדיו בן צבי</h3>
-                    <div className="regular-20 pr-5 pt-1">
+                    <h3 className="bold-32 text-cyan-400 pt-3">?מה זה רדיו בן צבי</h3>
+                    <div className="regular-20 pt-1">
                         <p></p>
                     </div>
+                    <Image
+                        src="/assets/bgPattern.png"
+                        width={200}
+                        height={200}
+                        alt="bg"
+                        className="hidden md:block absolute top-0 right-[-10rem] w-[57%] h-full z-[-10]"
+                    />
                 </div>
             </motion.div>
             <motion.div 
@@ -69,6 +77,13 @@ const CopyrightingAndInfo = () => {
                     <div className="regular-20 pr-5 pt-1">
                         <p></p>
                     </div>
+                    <Image
+                        src="/assets/bgPattern.png"
+                        width={200}
+                        height={200}
+                        alt="bg"
+                        className="hidden md:block absolute top-0 left-[-10rem] w-[55%] h-full z-[-10]"
+                    />
                 </div>
             </motion.div>
         </section>

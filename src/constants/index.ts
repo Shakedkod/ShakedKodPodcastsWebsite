@@ -62,23 +62,23 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = [
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/instagram.svg?updatedAt=1698440529195",
+        icon: "/assets/instagram.svg",
         path: "https://www.instagram.com/shakedkod",
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/github.svg?updatedAt=1698440529450",
+        icon: "/assets/github.svg",
         path: "https://github.com/shakedkod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/linkedin.svg?updatedAt=1698440529304",
+        icon: "/assets/linkedin.svg",
         path: "https://www.linkedin.com/in/shakedkod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/youtube.svg?updatedAt=1698440529479",
+        icon: "/assets/youtube.svg",
         path: "https://www.youtube.com/@ShakedKod"
     },
     {
-        icon: "https://ik.imagekit.io/shakedkod/shakedkod-website/twitter.svg?updatedAt=1698440529306",
+        icon: "/assets/twitter.svg",
         path: "https://twitter.com/m_ShakedKod"
     }
 ];

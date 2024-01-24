@@ -40,7 +40,7 @@ const Wrapper = ({children}: {children: React.ReactNode}) => {
                     transition={{ duration: .4, ease: [0.22, 1, 0.36, 1] }}
                 >
                     <Image
-                        src="https://ik.imagekit.io/shakedkod/shakedkod-website/logo.png?updatedAt=1698440530327"
+                        src="/assets/logo.png"
                         width={200}
                         height={200}
                         alt="ShakedKod's logo"
