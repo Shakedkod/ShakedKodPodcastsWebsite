@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import Link from "next/link";
+import Link, { DownLink } from "@/components/TransitionLink";
 import { NavItems } from "@/constants";
 
 const Navbar = () => {
@@ -36,9 +36,17 @@ const Navbar = () => {
                     <ul className="flex w-1/2 h-full ml-10 lg:ml-0 flex-row items-center justify-between lg:px-12 xl:px-32 3xl:px-64">
                         {NavItems.map((item, i) => {
                             if (i > (NavItems.length / 2 - 1)) return null;
-                            return (
+                            
+                            if (item.path.includes("#")) return (
                                 <li className="navI" key={item.path}>
-                                    <Link href={item.path} className="mx-2 text-xl font-philo text-white hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                    <DownLink href={item.path} className="mx-2 text-xl font-philo text-white cursor-pointer hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                        {item.title}
+                                    </DownLink>
+                                </li>
+                            );
+                            else return (
+                                <li className="navI" key={item.path}>
+                                    <Link href={item.path} className="mx-2 text-xl font-philo text-white cursor-pointer hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
                                         {item.title}
                                     </Link>
                                 </li>
@@ -47,13 +55,22 @@ const Navbar = () => {
                     </ul>
                     <ul className="flex w-1/2 h-full ml-10 lg:ml-0 flex-row items-center justify-between lg:px-12 xl:px-32 3xl:px-64" id="navI-2">
                         {NavItems.map((item, i) => {
-                            if (i > (NavItems.length / 2 - 1)) return (
-                                <li className="navI" key={item.path}>
-                                    <Link href={item.path} className="mx-2 text-xl font-philo text-white hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
-                                        {item.title}
-                                    </Link>
-                                </li>
-                            );
+                            if (i > (NavItems.length / 2 - 1)) {
+                                if (item.path.includes("#")) return (
+                                    <li className="navI" key={item.path}>
+                                        <DownLink href={item.path} className="mx-2 text-xl font-philo text-white cursor-pointer hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                            {item.title}
+                                        </DownLink>
+                                    </li>
+                                );
+                                else return (
+                                    <li className="navI" key={item.path}>
+                                        <Link href={item.path} className="mx-2 text-xl font-philo text-white cursor-pointer hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                            {item.title}
+                                        </Link>
+                                    </li>
+                                );
+                            }
 
                             return null;
                         })}
@@ -78,7 +95,7 @@ const Navbar = () => {
                         height={100}
                         priority={true}
                         className="
-                            h-3/4 w-auto translate-x-[-1.5rem]
+                            h-3/4 w-auto translate-x-[-1.5rem] translate-y-[-0.5rem]
                             cursor-pointer rounded-full 
                             hover:bg-[radial-gradient(#ffaa482d_40%,_#FFFFFF00_70%)] hover:shadow-lg
                             hover:h-[100%] hover:translate-y-[-0.4rem] hover:translate-x-[-2.1rem] 

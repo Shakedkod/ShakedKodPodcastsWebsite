@@ -5,7 +5,6 @@ import localFont from 'next/font/local'
 import Head from "next/head";
 
 import Navbar from "@/components/Navbar";
-import Transition from "@/components/Transition";
 
 export const metadata: Metadata = {
     title: "ShakedKod's Podcasts",
@@ -39,9 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </Head>
             <body className={`${archayFont.variable} bg-blue-70 text-white w-screen hide-scrollbar`}>
                 <Navbar />
-                <Transition>
-                    {children}
-                </Transition>
+                {children}
             </body>
         </html>
     );
