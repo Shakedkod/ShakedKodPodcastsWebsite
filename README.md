@@ -1,1 +1,0 @@
-The repository of the podcasts.shakedkod.tech website

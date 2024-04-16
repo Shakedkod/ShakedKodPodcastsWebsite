@@ -1,152 +1,96 @@
 "use client";
 
-import { useState } from "react";
+import React from "react";
 import Image from "next/image";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-
-import { NavItemsLeft, NavItemsRight } from "@/constants";
-import { motion } from "framer-motion";
+import { NavItems } from "@/constants";
 
 const Navbar = () => {
-    const router = useRouter();
-    const pathname = usePathname();
-    const [toggle, setToggle] = useState(false);
+    useGSAP(() => {
+        gsap.from("#head", {
+            translateY: "-100%",
+            duration: 1.2,
+        });
 
-    const hoverColor = pathname?.includes("Ep") ? "#EF4444" : "#FEC601";
-    const homePath = pathname === "/" ? "https://shakedkod.tech" : "/";
+        gsap.from("#logo-link", {
+            opacity: 0,
+            duration: 1.8,
+        });
+
+        gsap.from(".navI", {
+            opacity: 0,
+            translateY: "105%",
+            delay: 0.7,
+            duration: 0.4,
+            stagger: 0.1
+        });
+    }, []);
 
     return (
-        <>
-            <nav 
-                className="padding-container relative top-0 z-40 py-5 4xl:py-14 hidden lg:flex items-center justify-center flex-row bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-60% "
-            >
-                <ul className="flexBetween gap-5 4xl:gap-12">
-                    {NavItemsLeft.map((link, index) => {  
-                        const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
-                        
-                        return (
-                            <motion.li 
-                                key={index} 
-                                initial={{ color: isActive ? hoverColor : '#fff' }}
-                                whileHover={{
-                                    color: hoverColor,
-                                    transition: {
-                                        duration: 0.2
-                                    }
-                                }}
-                                className="inline-block mr-5"
-                            >
-                                <Link href={link.path} className="regular-20 4xl:regular-64">
-                                    {link.title}
-                                </Link>
-                            </motion.li>
-                        )
-                    })}
-                    <Link href={homePath}>
-                        <motion.div
-                            initial={{ scale: 1 }}
-                            whileHover={{
-                                scale: 1.2,
-                                transition: {
-                                    duration: 0.2
-                                }
-                            }}
-                            className="w-[50px] h-[50px] 4xl:w-[12rem] 4xl:h-[12rem] relative"
-                        >
-                            <Image
-                                src="/assets/logo.png"
-                                alt="ShakedKod's logo"
-                                width={50}
-                                height={50}
-                                className="absolute top-0 left-0 cursor-pointer 4xl:w-[12rem] 4xl:h-[12rem]"
-                            />
-                        </motion.div>
-                    </Link>
-                    {NavItemsRight.map((link, index) => {  
-                        const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
-                        
-                        return (
-                            <motion.li 
-                                key={index} 
-                                initial={{ color: isActive ? hoverColor : '#fff' }}
-                                whileHover={{
-                                    color: hoverColor,
-                                    transition: {
-                                        duration: 0.2
-                                    }
-                                }}
-                                className="inline-block mr-5"
-                            >
-                                <Link href={link.path} className="regular-20 4xl:regular-64">
-                                    {link.title}
-                                </Link>
-                            </motion.li>
-                        )
-                    })}
-                </ul>
-            </nav>
-            <nav className="flexBetween max-container padding-container relative z-30 py-5 lg:hidden bg-gradient-to-b from-gray-800 from-10% via-gray-700 via-35% xs:via-40%">
-                <Link href={homePath}>
-                    <Image
-                        src="/assets/logo.png"
-                        alt="ShakedKod's logo"
-                        width={32}
-                        height={32}
-                        className="cursor-pointer"
-                    />
-                </Link>
-
-                {toggle ? <motion.div 
-                    initial={{ x: 250 }}
-                    animate={{ x: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="fixed top-0 right-0 w-2/3 h-full bg-slate-950 transition-colors duration-300"
-                >
-                    <Image
-                        src="/assets/close.svg"
-                        alt="close"
-                        width={40}
-                        height={40}
-                        className="inline-block cursor-pointer lg:hidden m-5"
-                        onClick={() => setToggle(false)}
-                    />
-                    <ul className="flexBetween flex-col gap-5 regular-32">
-                        {[...NavItemsLeft, ...NavItemsRight].map((link, index) => {
-                            const isActive = (pathname?.includes(link.path) && link.path.length > 1) || pathname === link.path;
-                            const text = link.title.replace("ㅤ", '');
-                            
+        <header className="w-full bg-slate-900 pt-3 pb-2 px-5" id="head">
+            <nav className="w-full h-12 flex flex-row">
+                {/* Desktop Navbar */}
+                <div className="w-full h-full px-14 hidden md:flex flex-row">
+                    <ul className="flex w-1/2 h-full ml-10 lg:ml-0 flex-row items-center justify-between lg:px-12 xl:px-32 3xl:px-64">
+                        {NavItems.map((item, i) => {
+                            if (i > (NavItems.length / 2 - 1)) return null;
                             return (
-                                <motion.li 
-                                    key={index} 
-                                    initial={{ color: isActive ? '#FEC601' : '#fff' }}
-                                    whileHover={{
-                                        color: '#FEC601',
-                                        transition: {
-                                            duration: 0.2
-                                        }
-                                    }}
-                                    className="inline-block mr-5"
-                                >
-                                    <Link href={link.path} onClick={() => setToggle(false)} className="regular-20">
-                                        {text}
+                                <li className="navI" key={item.path}>
+                                    <Link href={item.path} className="mx-2 text-xl font-philo text-white hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                        {item.title}
                                     </Link>
-                                </motion.li>
-                            )
+                                </li>
+                            );
                         })}
                     </ul>
-                </motion.div> : <>
+                    <ul className="flex w-1/2 h-full ml-10 lg:ml-0 flex-row items-center justify-between lg:px-12 xl:px-32 3xl:px-64" id="navI-2">
+                        {NavItems.map((item, i) => {
+                            if (i > (NavItems.length / 2 - 1)) return (
+                                <li className="navI" key={item.path}>
+                                    <Link href={item.path} className="mx-2 text-xl font-philo text-white hover:text-transparent hover:bg-clip-text  hover:bg-[linear-gradient(25deg,_#ffed00_0%,_#ff9c00_35%,_#ff9c00_58%,_#ffed00_100%)]">
+                                        {item.title}
+                                    </Link>
+                                </li>
+                            );
+
+                            return null;
+                        })}
+                    </ul>
+                </div>
+
+                {/* Phone Hamburger Menu */}
+                <div className="">
+
+                </div>
+
+                {/* Logo Image */}
+                <Link
+                    href="/"
+                    className="h-full w-auto absolute top-2 ml-auto left-[50%]"
+                    id="logo-link"
+                >
                     <Image
-                        src="/assets/menu.svg"
-                        alt="menu"
-                        width={32}
-                        height={32}
-                        className="inline-block cursor-pointer lg:hidden"
-                        onClick={() => setToggle(true)}
+                        src="/assets/logo.png"
+                        alt="ShakedKod's Podcasts"
+                        width={100}
+                        height={100}
+                        priority={true}
+                        className="
+                            h-3/4 w-auto translate-x-[-1.5rem]
+                            cursor-pointer rounded-full 
+                            hover:bg-[radial-gradient(#ffaa482d_40%,_#FFFFFF00_70%)] hover:shadow-lg
+                            hover:h-[100%] hover:translate-y-[-0.4rem] hover:translate-x-[-2.1rem] 
+                            transition-all duration-300 ease-in-out
+                        "
+                        style={{
+                            transition: "background-image 0.5s ease-in-out, box-shadow 0.3s ease-in-out, height 0.3s ease-in-out, transform 0.3s ease-in-out"
+                        }}
                     />
-                </>}
+                </Link>
             </nav>
-        </>
+        </header>
     );
 };
 

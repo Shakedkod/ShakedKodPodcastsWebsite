@@ -83,18 +83,15 @@ export const SOCIALS = [
     }
 ];
 
-export const NavItemsLeft = [
+export const NavItems = [
     {
         title: "About",
-        path: "https://shakedkod.tech/about",
+        path: "/about",
     },
     {
         title: "Programsㅤ",
         path: "https://shakedkod.tech/program",
     },
-];
-
-export const NavItemsRight = [
     {
         title: "ㅤPodcasts",
         path: "/#podcasts",
@@ -103,7 +100,7 @@ export const NavItemsRight = [
         title: "Contact",
         path: "https://shakedkod.tech/contact",
     },
-];
+]
 
 export const MyPodcastId = [
     "PWAS",
